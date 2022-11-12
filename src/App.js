@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Header from "./components/Header";
+import React from "react";
+import Profile from "./components/Profile";
+import Description from "./components/Description";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    // this.state = {
+    //   listItem: null,
+    //   position: [],
+    //   frenchCity: null,
+    //   chooseCity: null,
+    //   errorMap: null,
+    //   errorInApp: null,
+    // };
+    // this.APIkey = "Enter here the API KEY";
+    // this.defaultValue = "--- Selectionner une ville ---";
+  }
+
+  componentDidMount() {}
+
+  render() {
+    return (
+      <div className="App	bg-neutral-100">
+        <Header />
+        {/* Main */}
+        <Profile />
+        <Description />
+      </div>
+    );
+  }
 }
 
 export default App;
