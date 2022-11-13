@@ -1,0 +1,14 @@
+[
+    {
+        "id": "1",
+        "imgSchool": "https://www.iut.u-bordeaux.fr/general/wp-content/uploads/2017/03/iut_Bordeaux_RVB-01-e1488459784711.jpg",
+        "textSchool": "Licence Pro DAWIN - IUT de Bordeaux - Bac +3",
+        "yearSchool": "2022-2023"
+    },
+    {
+        "id": "2",
+        "imgSchool": "https://file.diplomeo-static.com/file/00/00/01/48/14869.svg",
+        "textSchool": "BTS SIO SLAM - Lycée Gustave Eiffel - Bac +2",
+        "yearSchool": "2020-2022"
+    }
+]
