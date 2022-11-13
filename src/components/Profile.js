@@ -45,11 +45,11 @@ class Profile extends React.Component {
       //     </div>
       // </div>
 
-      <div className="place-content-center flex flex-col ml-auto mr-auto my-10 text-center">
+      <div className="place-content-center flex flex-col ml-auto mr-auto h-screen text-center">
         <h1 className="font-bold text-6xl">BYRA</h1>
         <h2 className="font-bold text-6xl">Bastien</h2>
-        <p>Full-Stack Developer - Mobile Developer</p>
-        <div className="mt-5">
+        <p className="text-2xl mt-2">Full-Stack Developer - Mobile Developer</p>
+        <div className="mt-8">
           <button
             class="rounded-md py-2 px-8 duration-200 border-2
             bg-slate-300 border-neutral-100
@@ -58,7 +58,7 @@ class Profile extends React.Component {
             Qui suis-je
           </button>
         </div>
-        <div className="flex items-center mt-5 gap-4 justify-center">
+        <div className="flex items-center mt-8 gap-4 justify-center">
           <img className="w-8 h-8" src={github} />
           <img className="w-8 h-8" src={email} />
         </div>

@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import React from "react";
 import Profile from "./components/Profile";
 import Description from "./components/Description";
+import Parcours from "./components/Parcours";
 
 class App extends React.Component {
   constructor(props) {
@@ -28,6 +29,8 @@ class App extends React.Component {
         {/* Main */}
         <Profile />
         <Description />
+        <Parcours />
+        {/* Stack */}
       </div>
     );
   }

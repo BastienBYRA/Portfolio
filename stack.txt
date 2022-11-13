@@ -1,0 +1,28 @@
+Prog :
+- HTML
+- CSS
+- Tailwind CSS (?)
+- JS
+- JQuery
+- React
+
+- C#
+- .NET
+
+- Python
+- Java
+- PHP
+
+- Dart
+- Flutter
+
+- Symfony
+
+Ce que je pense maitriser
+- Node
+- Angular
+
+SQL :
+- MySQL
+- SQL Server ?
+- MongoDB ?
