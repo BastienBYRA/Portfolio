@@ -11,8 +11,8 @@ class Parcours extends React.Component {
 
   render() {
     return (
-      <div className="px-[20vw] pt-10 flex flex-col mx-auto items-center justify-center">
-        <h2 className="text-4xl font-bold">Parcours scolaire</h2>
+      <div className="md:px-[20vw] px-[12vw] py-10 flex flex-col mx-auto items-center justify-center">
+        <h2 className="sm:text-4xl text-3xl font-bold">Parcours scolaire</h2>
         {schoolData.map((school, i) => (
           <School
             key={i}

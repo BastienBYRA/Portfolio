@@ -10,10 +10,10 @@ class School extends React.Component {
 
   render() {
     return (
-      <div className="h-20 w-full flex gap-4 items-center justify-center mt-2">
+      <div className="py-4 w-full flex gap-4 items-center justify-center mt-2">
         <img className="max-w-[140px] object-contain" src={this.imgSchool} />
         <div>
-          <p className="text-2xl">{this.textSchool}</p>
+          <p className="md:text-2xl sm:text-xl text-base">{this.textSchool}</p>
           <p className="italic">{this.yearSchool}</p>
         </div>
       </div>

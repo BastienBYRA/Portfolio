@@ -4,6 +4,7 @@ import React from "react";
 import Profile from "./components/Profile";
 import Description from "./components/Description";
 import Parcours from "./components/Parcours";
+import Stack from "./components/Stack";
 
 class App extends React.Component {
   constructor(props) {
@@ -30,7 +31,7 @@ class App extends React.Component {
         <Profile />
         <Description />
         <Parcours />
-        {/* Stack */}
+        <Stack />
       </div>
     );
   }
