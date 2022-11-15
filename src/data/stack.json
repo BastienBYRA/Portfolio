@@ -1,0 +1,42 @@
+[
+    {
+        "id": "1",
+        "img": "https://www.iut.u-bordeaux.fr/general/wp-content/uploads/2017/03/iut_Bordeaux_RVB-01-e1488459784711.jpg",
+        "name": "HTML"
+    },
+    {
+        "id": "2",
+        "img": "https://file.diplomeo-static.com/file/00/00/01/48/14869.svg",
+        "name": "CSS"
+    },
+    {
+        "id": "3",
+        "img": "https://file.diplomeo-static.com/file/00/00/01/48/14869.svg",
+        "name": "JavaScript"
+    },
+    {
+        "id": "2",
+        "img": "https://file.diplomeo-static.com/file/00/00/01/48/14869.svg",
+        "name": "React"
+    },
+    {
+        "id": "2",
+        "img": "https://file.diplomeo-static.com/file/00/00/01/48/14869.svg",
+        "name": "C#"
+    },
+    {
+        "id": "2",
+        "img": "https://file.diplomeo-static.com/file/00/00/01/48/14869.svg",
+        "name": "ASP.NET"
+    },
+    {
+        "id": "2",
+        "img": "https://file.diplomeo-static.com/file/00/00/01/48/14869.svg",
+        "name": "Java"
+    },
+    {
+        "id": "2",
+        "img": "https://file.diplomeo-static.com/file/00/00/01/48/14869.svg",
+        "name": "Python"
+    }
+]

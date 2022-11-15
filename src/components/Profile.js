@@ -22,10 +22,12 @@ class Profile extends React.Component {
 
   render() {
     return (
-      <div className="place-content-center flex flex-col ml-auto mr-auto h-screen text-center">
-        <h1 className="font-bold text-6xl">BYRA</h1>
-        <h2 className="font-bold text-6xl">Bastien</h2>
-        <p className="text-2xl mt-2">Full-Stack Developer - Mobile Developer</p>
+      <div className="place-content-center flex flex-col ml-auto mr-auto h-screen text-center px-5">
+        <h1 className="font-bold sm:text-6xl text-5xl">BYRA</h1>
+        <h2 className="font-bold sm:text-6xl text-5xl">Bastien</h2>
+        <p className="sm:text-2xl text-xl mt-2">
+          Full-Stack Developer - Mobile Developer
+        </p>
         <div className="mt-8">
           <button
             class="rounded-md py-2 px-8 duration-200 border-2

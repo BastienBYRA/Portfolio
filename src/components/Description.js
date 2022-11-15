@@ -32,7 +32,7 @@ class Description extends React.Component {
             </button> */}
           </div>
           <img
-            className="max-w-xs object-contain mx-auto md:mt-0 mt-5"
+            className="max-w-xs object-contain mx-auto md:mt-0 mt-5 w-[70vmin]"
             src={byra}
           />
         </div>
