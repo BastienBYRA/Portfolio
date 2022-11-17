@@ -16,7 +16,7 @@ class Description extends React.Component {
         <div className="md:flex gap-7">
           <div className="my-auto">
             <h1 className="font-bold sm:text-5xl text-3xl mb-5">
-              BYRA Bastien, 21 ans
+              👋 BYRA Bastien, 21 ans
             </h1>
             <p className="sm:text-3xl text-xl">
               Cela fait plus de 3 ans que je suis plongé dans le vaste monde de
