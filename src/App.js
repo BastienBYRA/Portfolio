@@ -29,7 +29,7 @@ class App extends React.Component {
         <Header />
         {/* Main */}
         <Profile />
-        <Description />
+        {/* <Description /> */}
         <Parcours />
         <Stack />
       </div>

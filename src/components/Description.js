@@ -23,13 +23,6 @@ class Description extends React.Component {
               la programmation informatique ; Web, Mobile, Server, Logiciel,
               Scripting et bien d'autre.
             </p>
-            {/* <button
-              class="rounded-md py-2 px-8 duration-200 border-2 mt-5
-              bg-zinc-900 border-zinc-800
-              hover:bg-zinc-800 hover:border-zinc-900"
-            >
-              Mon parcours scolaire
-            </button> */}
           </div>
           <img
             className="max-w-xs object-contain mx-auto md:mt-0 mt-5 w-[70vmin]"

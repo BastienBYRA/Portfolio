@@ -7,7 +7,7 @@ class Stack extends React.Component {
 
   render() {
     return (
-      <div className="px-[20vw] py-10 bg-zinc-800 text-zinc-200 ">
+      <div className="px-[20vw] py-10 ">
         <h2 className="text-4xl font-bold">Ma Stack</h2>
         <div className="mt-5 flex flex-wrap">
           <div className="flex flex-col items-center max-h-24 max-w-24">
