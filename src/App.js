@@ -1,24 +1,13 @@
 import "./App.css";
 import Header from "./components/Header";
 import React from "react";
-import Profile from "./components/Profile";
-import Description from "./components/Description";
+import Home from "./components/Home";
 import Parcours from "./components/Parcours";
 import Stack from "./components/Stack";
 
 class App extends React.Component {
   constructor(props) {
     super(props);
-    // this.state = {
-    //   listItem: null,
-    //   position: [],
-    //   frenchCity: null,
-    //   chooseCity: null,
-    //   errorMap: null,
-    //   errorInApp: null,
-    // };
-    // this.APIkey = "Enter here the API KEY";
-    // this.defaultValue = "--- Selectionner une ville ---";
   }
 
   componentDidMount() {}
@@ -27,9 +16,7 @@ class App extends React.Component {
     return (
       <div className="App	bg-neutral-100">
         <Header />
-        {/* Main */}
-        <Profile />
-        {/* <Description /> */}
+        <Home />
         <Parcours />
         <Stack />
       </div>
