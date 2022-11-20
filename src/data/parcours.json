@@ -10,5 +10,78 @@
         "imgSchool": "https://file.diplomeo-static.com/file/00/00/01/48/14869.svg",
         "textSchool": "BTS SIO SLAM - Lycée Gustave Eiffel - Bac +2",
         "yearSchool": "2020-2022"
+    },
+    {
+        "id": "1",
+        "year": "2022-2023",
+        "school": [
+            {
+            "img_s":"https://www.iut.u-bordeaux.fr/general/wp-content/uploads/2017/03/iut_Bordeaux_RVB-01-e1488459784711.jpg",
+            "title_s":"Apprentissage à IUT de Bordeaux Licence Pro DAWIN, Bac +3 - 1 an",
+            "content_s":"Pendant cette année de licence pro, j'ai pu renforcer mes connaissances concernant la programmation ainsi qu'apprendre de nouveau concept et langage"
+            }
+        ],
+        "experience": {
+            "img_e": "https://sserenity-dentaire.com/wp-content/uploads/2018/09/acteon-satelec-sopro-logiciel-dentaire.jpg",
+            "title_e": "Alternance chez Acteon Satelec - 1 an",
+            "content_e": "J'ai travailler sur la webapp DigitActeon, une webapp interne de la boite permettant d'améliorer la productivité des employés ainsi que garder des traces numérique des traitements réalisés par les employés J'ai pendant cette alternance ;",
+            "missions": [
+                {
+                    "title": "▷ Fait de la documentation technique / utilisateur"
+                },
+                {
+                    "title": "▶ Refonte graphique"
+                },
+                {
+                    "title": "▷ Sécurisation / Gestion des erreurs"
+                },
+                {
+                    "title": "▶ Ajout de nouvelles fonctionnalités"
+                },
+                {
+                    "title": "▷ Optimiser le code précédent"
+                }
+            ]
+        }
+    },
+    {
+        "id": "2",
+        "year": "2020-2022",
+        "school": {
+            "img_s":"https://file.diplomeo-static.com/file/00/00/01/48/14869.svg",
+            "title_s":"Apprentissage au Lycée Gustave Eiffel BTS SIO SLAM, Bac +2 - 2 ans",
+            "content_s":"Pendant ces deux années de BTS, j'ai pu apprendre mes la programmation web, objet, mobile, la sécurité, la manipulation de SGDB et BDD et ce qui l'entoure (TLDR : CNIL, RGPD)"
+        },
+        "experience": [
+            {
+            "img_e": "https://www.obbymedia.fr/wp-content/uploads/2022/05/Logo-ObbyMedia-RVB-fc.png",
+            "title_e": "Stage chez Obbymedia - 8 semaines (2ème année de BTS)",
+            "content_e": "J'ai travailler sur une refonte complète de leur application pré-existante 'U me Jobs', mon objectif était de refaire l'application déja existante en Angular / Ionic en Flutter.",
+            "missions": [
+                {
+                    "title": "▷ Refonte technique de l'application."
+                },
+                {
+                    "title": "▶ Optimiser le code précédent."
+                }
+                ]
+            },
+            {
+            "img_e": "https://www.unitec.fr/wp-content/uploads/2018/07/emsproto_logo.png",
+            "title_e": "Stage chez EMS Proto - 6 semaines (1ère année de BTS)",
+            "content_e": "J'ai travailler sur des scripts de scrapping afin de récupérer des données sur les sites de Digikey et Mouser, ainsi que des scripts de manipulation des données et d'équivalence.",
+            "missions": [
+                {
+                    "title": "▷ Création de scripts de récupération de données."
+                },
+                {
+                    "title": "▶ Création de scripts de manipulation de données."
+                },
+                {
+                    "title": "▷ Création de scripts d'équivalence a partir de la manipulation des données effectué."
+                }
+                ]
+            }
+        ]
     }
 ]
