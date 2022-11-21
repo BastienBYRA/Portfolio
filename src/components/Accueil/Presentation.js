@@ -1,6 +1,7 @@
 import React from "react";
 import github from "../../assets/profil/github.svg";
 import email from "../../assets/profil/email.svg";
+import Button from "../../UI/Button";
 
 class Presentation extends React.Component {
   constructor(props) {
@@ -37,7 +38,31 @@ class Presentation extends React.Component {
           </p>
 
           <div className="mt-5 gap-3">
-            <button
+            <Button
+              key={1}
+              content={"Parcours"}
+              scrollTo={"#Parcours"}
+              styleType={1}
+            />
+            <Button
+              key={2}
+              content={"Stack"}
+              scrollTo={"#Stack"}
+              styleType={1}
+            />
+            <Button
+              key={3}
+              content={"Projet"}
+              scrollTo={"#Projet"}
+              styleType={1}
+            />
+            <Button
+              key={4}
+              content={"Contact"}
+              scrollTo={"#Contact"}
+              styleType={2}
+            />
+            {/* <button
               className="rounded-md py-2 px-8 duration-200 border-2
         bg-transparent border-zinc-500 hover:bg-neutral-200 mr-2 mb-2"
             >
@@ -60,7 +85,7 @@ class Presentation extends React.Component {
         bg-zinc-800 border-zinc-800 hover:bg-zinc-600 mr-2 mb-2"
             >
               Contact
-            </button>
+            </button> */}
           </div>
         </div>
       </div>
