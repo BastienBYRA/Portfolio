@@ -1,9 +1,9 @@
 import "./App.css";
-import Header from "./components/Header";
+import Header from "./layouts/Header";
 import React from "react";
-import Home from "./components/Home";
-import Parcours from "./components/Parcours";
-import Stack from "./components/Stack";
+import Accueil from "./components/Accueil/Accueil";
+import Parcours from "./components/Parcours/Parcours";
+import Stack from "./components/Stack/Stack";
 
 class App extends React.Component {
   constructor(props) {
@@ -16,7 +16,7 @@ class App extends React.Component {
     return (
       <div className="App	bg-neutral-100">
         <Header />
-        <Home />
+        <Accueil />
         <Parcours />
         <Stack />
       </div>

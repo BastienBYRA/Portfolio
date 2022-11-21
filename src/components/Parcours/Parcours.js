@@ -1,6 +1,5 @@
 import React from "react";
-import School from "./School";
-import schoolData from "../data/parcours.json";
+import parcours from "../../data/parcours.json";
 
 class Parcours extends React.Component {
   constructor(props) {
