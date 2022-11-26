@@ -62,30 +62,6 @@ class Presentation extends React.Component {
               scrollTo={"#Contact"}
               styleType={2}
             />
-            {/* <button
-              className="rounded-md py-2 px-8 duration-200 border-2
-        bg-transparent border-zinc-500 hover:bg-neutral-200 mr-2 mb-2"
-            >
-              Parcours
-            </button>
-            <button
-              className="rounded-md py-2 px-8 duration-200 border-2
-        bg-transparent border-zinc-500 hover:bg-neutral-200 mr-2 mb-2"
-            >
-              Stack
-            </button>
-            <button
-              className="rounded-md py-2 px-8 duration-200 border-2
-        bg-transparent border-zinc-500 hover:bg-neutral-200 mr-2 mb-2"
-            >
-              Projet
-            </button>
-            <button
-              className="rounded-md py-2 px-8 duration-200 border-2 text-white
-        bg-zinc-800 border-zinc-800 hover:bg-zinc-600 mr-2 mb-2"
-            >
-              Contact
-            </button> */}
           </div>
         </div>
       </div>

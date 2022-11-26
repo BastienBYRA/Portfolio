@@ -8,7 +8,6 @@ import Presentation from "./Presentation";
 class Accueil extends React.Component {
   constructor(props) {
     super(props);
-    this.helloSignRef = React.createRef();
   }
 
   render() {

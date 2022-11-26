@@ -4,6 +4,7 @@ import React from "react";
 import Accueil from "./components/Accueil/Accueil";
 import Parcours from "./components/Parcours/Parcours";
 import Stack from "./components/Stack/Stack";
+import { nanoid } from "nanoid";
 
 class App extends React.Component {
   constructor(props) {
@@ -15,10 +16,10 @@ class App extends React.Component {
   render() {
     return (
       <div className="App	bg-neutral-100">
-        <Header />
-        <Accueil />
-        <Parcours />
-        <Stack />
+        <Header key={nanoid()} />
+        <Accueil key={nanoid()} />
+        <Parcours key={nanoid()} />
+        <Stack key={nanoid()} />
       </div>
     );
   }
