@@ -1,7 +1,5 @@
 import React from "react";
 import byra from "../../assets/BYRA.jpg";
-import github from "../../assets/profil/github.svg";
-import email from "../../assets/profil/email.svg";
 import Intro from "./Intro";
 import Presentation from "./Presentation";
 

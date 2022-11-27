@@ -40,6 +40,7 @@ class Parcours extends React.Component {
                           img={exp.img}
                           title={exp.title}
                           content={exp.content}
+                          type={exp.type}
                           tasks={exp.missions}
                         />
                       );

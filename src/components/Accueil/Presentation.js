@@ -1,6 +1,6 @@
 import React from "react";
-import github from "../../assets/profil/github.svg";
-import email from "../../assets/profil/email.svg";
+import github from "../../assets/icons/github.svg";
+import email from "../../assets/icons/email.svg";
 import Button from "../../UI/Button";
 
 class Presentation extends React.Component {

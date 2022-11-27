@@ -1,5 +1,5 @@
 import React from "react";
-import menuIcon from "../assets/header-icons/menu.svg";
+import menuIcon from "../assets/icons/menu.svg";
 
 class Header extends React.Component {
   constructor(props) {
