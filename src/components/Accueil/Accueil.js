@@ -14,7 +14,7 @@ class Accueil extends React.Component {
         className="flex flex-col items-center place-content-center pt-[12vh]
       md:pt-[10vh] md:flex-row
       lg:pt-[14vh] lg:pb-[14vh]
-      xl:pt-[18vh] xl:pb-[18vh]"
+      xl:pt-[18vh]"
       >
         <div className="md:w-[45vw] lg:w-[50vw] mx-auto">
           <img
@@ -30,7 +30,7 @@ class Accueil extends React.Component {
           className="text-center mt-5
         md:pr-[5vw] md:w-[55vw]
         lg:w-[50vw] lg:pr-[8vw] lg:text-left
-        xl:pr-[11vw] 2xl:pr-[15vw]"
+        2xl:pr-[15vw]"
         >
           <Intro />
 
