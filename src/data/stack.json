@@ -1,42 +1,77 @@
 [
     {
         "id": "1",
-        "img": "https://www.iut.u-bordeaux.fr/general/wp-content/uploads/2017/03/iut_Bordeaux_RVB-01-e1488459784711.jpg",
+        "img": "HTML.svg",
         "name": "HTML"
     },
     {
         "id": "2",
-        "img": "https://file.diplomeo-static.com/file/00/00/01/48/14869.svg",
+        "img": "CSS.svg",
         "name": "CSS"
     },
     {
         "id": "3",
-        "img": "https://file.diplomeo-static.com/file/00/00/01/48/14869.svg",
+        "img": "JS.svg",
         "name": "JavaScript"
     },
     {
-        "id": "2",
-        "img": "https://file.diplomeo-static.com/file/00/00/01/48/14869.svg",
+        "id": "4",
+        "img": "REACT.svg", 
         "name": "React"
     },
     {
-        "id": "2",
-        "img": "https://file.diplomeo-static.com/file/00/00/01/48/14869.svg",
+        "id": "5",
+        "img": "JQUERY.png", 
+        "name": "Jquery"
+    },
+    {
+        "id": "6",
+        "img": "TAILWIND.svg", 
+        "name": "Tailwind CSS"
+    },
+    {
+        "id": "7",
+        "img": "CSHARP.svg",
         "name": "C#"
     },
     {
-        "id": "2",
-        "img": "https://file.diplomeo-static.com/file/00/00/01/48/14869.svg",
+        "id": "8",
+        "img": "ASPNET.png",
         "name": "ASP.NET"
     },
     {
-        "id": "2",
-        "img": "https://file.diplomeo-static.com/file/00/00/01/48/14869.svg",
+        "id": "9",
+        "img": "JAVA.svg",
         "name": "Java"
     },
     {
-        "id": "2",
-        "img": "https://file.diplomeo-static.com/file/00/00/01/48/14869.svg",
+        "id": "10",
+        "img": "PHP.svg",
+        "name": "PHP"
+    },
+    {
+        "id": "11",
+        "img": "MYSQL.svg",
+        "name": "MySQL"
+    },
+    {
+        "id": "12",
+        "img": "SQLSERVER.png",
+        "name": "SQL Server"
+    },
+    {
+        "id": "13",
+        "img": "DART.svg",
+        "name": "Dart"
+    },
+    {
+        "id": "14",
+        "img": "FLUTTER.svg",
+        "name": "Flutter"
+    },
+    {
+        "id": "15",
+        "img": "PYTHON.svg",
         "name": "Python"
     }
 ]
