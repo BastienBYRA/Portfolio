@@ -5,6 +5,7 @@ import Accueil from "./components/Accueil/Accueil";
 import Parcours from "./components/Parcours/Parcours";
 import Stack from "./components/Stack/Stack";
 import { nanoid } from "nanoid";
+import Project from "./components/Project/Project";
 
 class App extends React.Component {
   constructor(props) {
@@ -20,6 +21,7 @@ class App extends React.Component {
         <Accueil key={nanoid()} />
         <Parcours key={nanoid()} />
         <Stack key={nanoid()} />
+        <Project key={nanoid()} />
       </div>
     );
   }

@@ -1,0 +1,50 @@
+[
+    {
+        "id":"1",
+        "title": "Mon site portfolio",
+        "img": "https://wallpaperaccess.com/full/945950.jpg",
+        "shortDesc": "Un site réalisé par mes soins afin de me présenter.",
+        "longDesc": "",
+        "langages": [
+            {
+                "title": "React",
+                "img": "REACT.svg",
+                "background": false
+            },
+            {
+                "title": "Tailwind CSS",
+                "img": "TAILWIND.svg",
+                "background": false
+            }
+        ]    
+    },
+    {
+        "id":"2",
+        "title": "Acteon Satelec - DIGIT-ACTEON",
+        "img": "https://wallpaperaccess.com/full/2379729.jpg",
+        "shortDesc": "Site web interne de l'entreprise Acteon Satelec.",
+        "longDesc": "",
+        "langages": [
+            {
+                "title": "C#",
+                "img": "CSHARP.svg",
+                "background": false
+            },
+            {
+                "title": "ASP.NET",
+                "img": "NET.svg",
+                "background": false
+            },
+            {
+                "title": "Jquery",
+                "img": "JQUERY.png",
+                "background": false
+            },
+            {
+                "title": "SQL Server",
+                "img": "SQLSERVER.png",
+                "background": true
+            }
+        ]    
+    }
+]

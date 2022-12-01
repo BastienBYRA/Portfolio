@@ -7,16 +7,13 @@ class Langage extends React.Component {
     this.img = this.props.img;
   }
 
-  componentDidMount = () => {
-    console.log(this.img);
-  };
-
   render() {
     return (
       <div className="flex flex-row items-center gap-2 w-auto">
         <img
           className=" object-contain h-8"
           src={process.env.PUBLIC_URL + "/stack/" + this.img}
+          alt={this.title}
         />
         <p className="sm:text-lg text-md">{this.title}</p>
       </div>
