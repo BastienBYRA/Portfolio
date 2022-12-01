@@ -36,6 +36,21 @@
                 "background": false
             },
             {
+                "title": "HTML",
+                "img": "HTML.svg",
+                "background": false
+            },
+            {
+                "title": "CSS",
+                "img": "CSS.svg",
+                "background": false
+            },
+            {
+                "title": "JavaScript",
+                "img": "JS.svg",
+                "background": false
+            },
+            {
                 "title": "Jquery",
                 "img": "JQUERY.png",
                 "background": false

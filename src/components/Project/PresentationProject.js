@@ -18,7 +18,7 @@ class PresentationProject extends React.Component {
   render() {
     return (
       <div className="border border-neutral-600 relative rounded-xl">
-        <div className="rounded-xl absolute inset-0 flex flex-wrap items-center justify-center gap-6 px-6 bg-black bg-opacity-80 transition duration-300 opacity-0 hover:opacity-100 hover:cursor-pointer">
+        <div className="rounded-xl absolute inset-0 flex flex-wrap items-center justify-center gap-6 px-6 bg-black bg-opacity-80 transition duration-300 opacity-0 hover:opacity-100 hover:cursor-pointer content-center">
           {this.langages &&
             this.langages.map((langage, i) => {
               return (
