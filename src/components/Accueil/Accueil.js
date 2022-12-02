@@ -11,15 +11,13 @@ class Accueil extends React.Component {
   render() {
     return (
       <div
-        className="flex flex-col items-center place-content-center pt-[12vh]
-      md:pt-[10vh] md:flex-row
-      lg:pt-[14vh] lg:pb-[14vh]
-      xl:pt-[18vh]"
+        className="flex flex-col items-center place-content-center mt-6
+         lg:flex-row lg:pb-16 lg:mt-12"
       >
-        <div className="md:w-[45vw] lg:w-[50vw] mx-auto">
+        <div className="lg:w-[50vw] mx-auto">
           <img
             className="rounded-full w-[50vw] h-[50vw] object-contain mx-auto max-h-[225px] max-w-[225px]
-            md:rounded-none md:w-[40vw] md:h-[40vw] md:max-h-full md:max-w-full
+            lg:rounded-none lg:w-[40vw] lg:h-[40vw]
             lg:max-h-[420px] lg:max-w-[420px]
             "
             src={byra}
@@ -28,9 +26,8 @@ class Accueil extends React.Component {
 
         <div
           className="text-center mt-5
-        md:pr-[5vw] md:w-[55vw]
-        lg:w-[50vw] lg:pr-[8vw] lg:text-left
-        2xl:pr-[15vw]"
+        lg:w-[50vw] lg:pr-10 lg:text-left
+        2xl:pr-48"
         >
           <Intro />
 

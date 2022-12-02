@@ -80,7 +80,7 @@ class Stack extends React.Component {
                 src="https://upload.wikimedia.org/wikipedia/de/d/dd/MySQL_logo.svg"
               />
               <img
-                className=" object-contain h-16 w-16 col-span-2"
+                className=" object-contain h-16 w-16"
                 src="https://upload.wikimedia.org/wikipedia/commons/9/99/Logo_M_SQL_Server.png"
               />
             </div>
@@ -90,7 +90,7 @@ class Stack extends React.Component {
           <div className="flex p-6 flex-col backdrop-blur-md bg-black/20 rounded-xl">
             <div className="grid grid-cols-2 grid-flow-row gap-4">
               <img
-                className=" object-contain h-16 w-16 col-span-2"
+                className=" object-contain h-16 w-16 "
                 src="https://upload.wikimedia.org/wikipedia/commons/4/44/Google-flutter-logo.svg"
               />
               <img

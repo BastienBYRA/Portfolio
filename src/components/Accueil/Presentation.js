@@ -11,15 +11,15 @@ class Presentation extends React.Component {
   render() {
     return (
       <div
-        className="mt-7 mb-7 md:mt-4
+        className="mt-4 mb-7
         lg:mb-0 lg:mt-10 lg:flex "
       >
         <div
-          className="h-1 mx-[10vw] mb-2 bg-black
-           lg:mx-0 lg:mb-0 lg:w-3 lg:h-auto l"
+          className="h-1 mx-12 mb-2 bg-black
+           lg:mx-0 lg:mb-0 lg:w-1 lg:min-w-[0.25rem] lg:h-auto"
         ></div>
 
-        <div className="px-6 pt-3 pb-1 sm:px-16 md:px-4">
+        <div className="px-6 pt-3 pb-1 sm:px-16 lg:px-4 max-w-2xl lg:w-auto lg:max-w-xl">
           <div className="flex flex-row items-center">
             <p className=" text-xl font-bold sm:text-2xl"> 👋 Bonjour ! </p>
             <div className="flex items-center gap-4 justify-end ml-auto">

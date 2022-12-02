@@ -26,7 +26,7 @@ class Header extends React.Component {
     return (
       <header
         ref={this.headerShrink}
-        className="flex items-center lg:px-24 px-12 shadow-md border-b bg-zinc-800 text-slate-100  h-[10vh] fixed w-screen z-50 transition-all duration-300 "
+        className="flex items-center lg:px-24 px-12 shadow-md border-b bg-zinc-800 text-slate-100  h-[10vh] sticky top-0 z-50 transition-all duration-300 "
       >
         <h1>BYRA Bastien</h1>
         <div className="ml-auto gap-5 flex items-center">
