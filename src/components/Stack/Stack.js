@@ -13,10 +13,10 @@ class Stack extends React.Component {
     return (
       <div
         id="Stack"
-        className="px-[5vw] sm:px-[15vw] lg:px-[20vw] 2xl:px-[30vw] py-10 bg-stack object-contain text-neutral-200 "
+        className="px-4 sm:px-8 md:px-20 py-10 bg-stack object-contain text-neutral-200"
       >
         <h2 className="text-4xl font-bold text-center">Stack technique</h2>
-        <div className="mt-5">
+        <div className="mt-5 mx-auto max-w-5xl">
           {/* grid grid-cols-3 gap-5     flex flex-wrap  */}
           <div className="flex p-6 flex-row flex-wrap backdrop-blur-md bg-black/20 rounded-lg border border-neutral-600 gap-y-6 gap-x-12 w-full">
             {stackData &&

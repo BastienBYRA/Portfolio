@@ -2,6 +2,7 @@ import React from "react";
 import github from "../../assets/icons/github.svg";
 import email from "../../assets/icons/email.svg";
 import Button from "../../UI/Button";
+import { nanoid } from "nanoid";
 
 class Presentation extends React.Component {
   constructor(props) {
@@ -23,8 +24,8 @@ class Presentation extends React.Component {
           <div className="flex flex-row items-center">
             <p className=" text-xl font-bold sm:text-2xl"> 👋 Bonjour ! </p>
             <div className="flex items-center gap-4 justify-end ml-auto">
-              <img className="w-8 h-8" src={github} />
-              <img className="w-8 h-8" src={email} />
+              <img className="w-8 h-8" src={github} alt="Github" />
+              <img className="w-8 h-8" src={email} alt="Mon mail" />
             </div>
           </div>
 
@@ -39,25 +40,25 @@ class Presentation extends React.Component {
 
           <div className="mt-5 gap-3">
             <Button
-              key={1}
+              key={nanoid()}
               content={"Parcours"}
               scrollTo={"#Parcours"}
               styleType={1}
             />
             <Button
-              key={2}
+              key={nanoid()}
               content={"Stack"}
               scrollTo={"#Stack"}
               styleType={1}
             />
             <Button
-              key={3}
+              key={nanoid()}
               content={"Projet"}
               scrollTo={"#Projet"}
               styleType={1}
             />
             <Button
-              key={4}
+              key={nanoid()}
               content={"Contact"}
               scrollTo={"#Contact"}
               styleType={2}

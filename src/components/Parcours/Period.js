@@ -8,7 +8,7 @@ class Period extends React.Component {
 
   render() {
     return (
-      <div className="w-auto sm:w-[20vw] sm:flex sm:flex-col sm:items-center sm:justify-center">
+      <div className="w-auto sm:w-52 sm:flex sm:flex-col sm:items-center sm:justify-center">
         <p className="font-bold text-xl">{this.year}</p>
         {/* <p>bg-white</p> */}
         <div className="hidden sm:block h-full w-2 bg-gradient-to-b from-yellow-300 via-pink-500 to-blue-700 mt-3"></div>

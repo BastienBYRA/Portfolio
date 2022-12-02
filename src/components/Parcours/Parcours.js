@@ -15,13 +15,13 @@ class Parcours extends React.Component {
     return (
       <div
         id="Parcours"
-        className="px-[4vw] sm:px-[2vw] py-[4vw] flex flex-col mx-auto items-center justify-center bg-zinc-800 text-zinc-200 lg:px-[20vw]"
+        className="px-4 sm:px-8 md:px-20 py-[4vw] flex flex-col mx-auto items-center justify-center bg-zinc-800 text-zinc-200"
       >
         <h2 className="text-3xl sm:text-4xl font-bold">Parcours</h2>
         {/* <h2 className="text-5xl sm:text-8xl font-bold opacity-30 relative bottom-20">
           Parcours
         </h2> */}
-        <div className="mt-7 sm:flex w-full gap-5 flex flex-col">
+        <div className="mt-7 sm:flex w-full gap-5 flex flex-col max-w-5xl">
           {parcoursData &&
             parcoursData.map((work, i) => {
               return (

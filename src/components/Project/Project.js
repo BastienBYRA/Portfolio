@@ -18,7 +18,7 @@ class Project extends React.Component {
     return (
       <div
         id="Projet"
-        className="px-[4vw] sm:px-[2vw] py-12 flex flex-col mx-auto items-center justify-center bg-zinc-800 text-zinc-200 lg:px-[15vw]"
+        className="px-4 sm:px-8 md:px-20 py-12 flex flex-col mx-auto items-center justify-center bg-zinc-800 text-zinc-200"
       >
         <h1 className=" text-4xl font-bold">Mes projets</h1>
         <div className="mt-6">
@@ -26,7 +26,7 @@ class Project extends React.Component {
           <Button key={2} content={"Personnel"} styleType={3} />
           <Button key={3} content={"Professionnel"} styleType={3} />
         </div>
-        <div className="grid grid-cols-3 gap-5 mt-4">
+        <div className="grid grid-cols-3 gap-5 mt-4 max-w-7xl">
           {projectData &&
             projectData.map((project, i) => {
               return (
