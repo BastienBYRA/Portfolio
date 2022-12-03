@@ -1,0 +1,111 @@
+[
+    {
+        "id": "1",
+        "category": "Front-End",
+        "langages": [
+            {
+                "id": "1",
+                "img": "HTML.svg",
+                "name": "HTML"
+            },
+            {
+                "id": "2",
+                "img": "CSS.svg",
+                "name": "CSS"
+            },
+            {
+                "id": "3",
+                "img": "JS.svg",
+                "name": "JavaScript"
+            },
+            {
+                "id": "4",
+                "img": "REACT.svg", 
+                "name": "React"
+            },
+            {
+                "id": "5",
+                "img": "JQUERY.png", 
+                "name": "JQuery"
+            },
+            {
+                "id": "6",
+                "img": "TAILWIND.svg", 
+                "name": "Tailwind CSS"
+            }
+        ]
+    },
+
+    {
+        "id": "2",
+        "category": "Back-End",
+        "langages": [
+            {
+                "id": "1",
+                "img": "CSHARP.svg",
+                "name": "C#"
+            },
+            {
+                "id": "2",
+                "img": "NET.svg",
+                "name": "ASP.NET"
+            },
+            {
+                "id": "3",
+                "img": "JAVA.svg",
+                "name": "Java"
+            },
+            {
+                "id": "4",
+                "img": "PHP.svg",
+                "name": "PHP"
+            }
+        ]
+    },
+
+    {
+        "id": "3",
+        "category": "Database",
+        "langages": [
+            {
+                "id": "1",
+                "img": "MYSQL.svg",
+                "name": "MySQL"
+            },
+            {
+                "id": "2",
+                "img": "SQLSERVER.png",
+                "name": "SQL Server"
+            }
+        ]
+    },
+
+    {
+        "id": "4",
+        "category": "Mobile",
+        "langages": [
+            {
+                "id": "1",
+                "img": "DART.svg",
+                "name": "Dart"
+            },
+            {
+                "id": "2",
+                "img": "FLUTTER.svg",
+                "name": "Flutter"
+            }
+        ]
+    },
+
+    {
+        "id": "5",
+        "category": "Scripting",
+        "langages": [
+            {
+                "id": "15",
+                "img": "PYTHON.svg",
+                "name": "Python"
+            }
+        ]
+    }
+]

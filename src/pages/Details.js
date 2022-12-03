@@ -1,18 +1,16 @@
 import React from "react";
 import { nanoid } from "nanoid";
-import Description from "../components/Description/Description";
+import WrappedDescription from "../components/Description/WrappedDescription";
 
 class Details extends React.Component {
   constructor(props) {
     super(props);
   }
 
-  detailElement = () => {};
-
   render() {
     return (
       <div>
-        <Description key={nanoid()} />
+        <WrappedDescription key={nanoid()} />
       </div>
     );
   }

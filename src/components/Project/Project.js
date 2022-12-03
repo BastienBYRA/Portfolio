@@ -10,10 +10,6 @@ class Project extends React.Component {
     this.state = { showDesc: false };
   }
 
-  test = () => {
-    console.log("Test !! :D");
-  };
-
   render() {
     return (
       <div
@@ -32,6 +28,7 @@ class Project extends React.Component {
               return (
                 <PresentationProject
                   key={nanoid()}
+                  id={project.id}
                   title={project.title}
                   shortDesc={project.shortDesc}
                   img={project.img}

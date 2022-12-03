@@ -1,23 +1,33 @@
 import { nanoid } from "nanoid";
 import React from "react";
 import Image from "../../UI/Image";
+import { Navigate, useNavigate } from "react-router-dom";
 
 class PresentationProject extends React.Component {
   constructor(props) {
     super(props);
+    this.id = this.props.id;
     this.title = this.props.title;
     this.img = this.props.img;
     this.shortDesc = this.props.shortDesc;
     this.langages = this.props.langages;
+    this.state = { navigate: null };
   }
 
-  componentDidMount() {
-    console.log(this.langages);
+  NavigationFunction() {
+    this.setState({ navigate: true });
   }
 
   render() {
     return (
-      <div className="border border-neutral-600 relative rounded-xl">
+      <div
+        className="border border-neutral-600 relative rounded-xl"
+        onClick={() => {
+          this.NavigationFunction();
+        }}
+      >
+        {this.state.navigate && <Navigate to={"/project/" + this.id} />}
+
         <div className="rounded-xl absolute inset-0 flex flex-wrap items-center justify-center gap-6 px-6 bg-black bg-opacity-80 transition duration-300 opacity-0 hover:opacity-100 hover:cursor-pointer content-center">
           {this.langages &&
             this.langages.map((langage, i) => {

@@ -9,7 +9,7 @@ class Button extends React.Component {
     this.styleLight =
       "rounded-md py-2 px-8 duration-200 border-2 bg-transparent border-zinc-500 border-b-4 hover:bg-neutral-200 mr-2 mb-2 cursor-pointer ";
     this.styleDark =
-      "rounded-md py-2 px-8 duration-200 border-2 text-white bg-zinc-800 border-zinc-800 border-b-4 hover:bg-zinc-600 mr-2 mb-2 cursor-pointer";
+      "rounded-md py-2 px-8 duration-200 border-2 text-white bg-zinc-700 border-zinc-800 border-b-4 hover:bg-zinc-600 mr-2 mb-2 cursor-pointer";
     this.styleChoice =
       "rounded-md py-2 px-8 duration-200 border-2 bg-transparent border-black border-b-4 hover:bg-zinc-600 mr-2 mb-2 cursor-pointer";
   }

@@ -12,8 +12,6 @@ class App extends React.Component {
     super(props);
   }
 
-  componentDidMount() {}
-
   render() {
     return (
       <div className="App	bg-neutral-100">
@@ -22,7 +20,7 @@ class App extends React.Component {
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/:id" element={<Details />} />
+            <Route path="/project/:id" element={<Details />} />
           </Routes>
         </BrowserRouter>
       </div>

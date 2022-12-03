@@ -6,10 +6,6 @@ class Task extends React.Component {
     this.tasks = this.props.tasks;
   }
 
-  componentDidMount = () => {
-    console.log(this.tasks);
-  };
-
   render() {
     return (
       <div>
