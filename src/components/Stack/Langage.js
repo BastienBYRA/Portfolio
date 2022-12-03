@@ -3,19 +3,19 @@ import React from "react";
 class Langage extends React.Component {
   constructor(props) {
     super(props);
-    this.title = this.props.title;
+    this.name = this.props.name;
     this.img = this.props.img;
   }
 
   render() {
     return (
-      <div className="flex flex-row items-center gap-2 w-auto">
+      <div className="flex flex-col mx-auto">
         <img
-          className=" object-contain h-8"
+          className=" object-contain h-12 sm:h-16"
           src={process.env.PUBLIC_URL + "/stack/" + this.img}
-          alt={this.title}
+          alt={this.name}
         />
-        <p className="sm:text-lg text-md">{this.title}</p>
+        <p className="text-sm sm:text-md lg:text-lg text-center">{this.name}</p>
       </div>
     );
   }
