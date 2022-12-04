@@ -20,11 +20,19 @@ class Description extends React.Component {
 
   render() {
     return (
-      <div>
-        <h1>Detail !</h1>
+      <div className="px-4 md:px-20 2xl:px-60 py-10 bg-zinc-800 text-neutral-200">
         {this.state.currentProject && (
           <div>
-            <img src={this.state.currentProject.img} />
+            <h1 className="text-4xl font-bold text-center">
+              {this.state.currentProject.title}
+            </h1>
+            <div className="mt-8">
+              <img
+                src={this.state.currentProject.img}
+                className="w-[70%] mx-auto"
+              />
+              <p>{this.state.currentProject.shortDesc}</p>
+            </div>
           </div>
         )}
       </div>

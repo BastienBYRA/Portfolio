@@ -1,7 +1,7 @@
 import { nanoid } from "nanoid";
 import React from "react";
 import Image from "../../UI/Image";
-import { Navigate, useNavigate } from "react-router-dom";
+import { Link, Navigate, useNavigate } from "react-router-dom";
 
 class PresentationProject extends React.Component {
   constructor(props) {
@@ -20,37 +20,33 @@ class PresentationProject extends React.Component {
 
   render() {
     return (
-      <div
-        className="border border-neutral-600 relative rounded-xl"
-        onClick={() => {
-          this.NavigationFunction();
-        }}
-      >
-        {this.state.navigate && <Navigate to={"/project/" + this.id} />}
-
-        <div className="rounded-xl absolute inset-0 flex flex-wrap items-center justify-center gap-6 px-6 bg-black bg-opacity-80 transition duration-300 opacity-0 hover:opacity-100 hover:cursor-pointer content-center">
-          {this.langages &&
-            this.langages.map((langage, i) => {
-              return (
-                <Image
-                  title={langage.title}
-                  img={process.env.PUBLIC_URL + "/stack/" + langage.img}
-                  background={langage.background}
-                />
-              );
-            })}
-        </div>
-        <div>
-          <img
-            src={this.img}
-            className="aspect-video rounded-t-xl border-b-2 border-neutral-600"
-          />
-          <div className="py-4 px-5">
-            <p className=" text-center text-xl">{this.title}</p>
-            <p className=" text-center text-base mt-4">{this.shortDesc}</p>
+      <Link to={"/project/" + this.id}>
+        <div className="border border-neutral-600 relative rounded-xl">
+          {/* {this.state.navigate && <Navigate to={"/project/" + this.id} />} */}
+          <div className="rounded-xl absolute inset-0 flex flex-wrap items-center justify-center gap-6 px-6 bg-black bg-opacity-80 transition duration-300 opacity-0 hover:opacity-100 hover:cursor-pointer content-center">
+            {this.langages &&
+              this.langages.map((langage, i) => {
+                return (
+                  <Image
+                    title={langage.title}
+                    img={process.env.PUBLIC_URL + "/stack/" + langage.img}
+                    background={langage.background}
+                  />
+                );
+              })}
+          </div>
+          <div>
+            <img
+              src={this.img}
+              className="aspect-video rounded-t-xl border-b-2 border-neutral-600"
+            />
+            <div className="py-4 px-5">
+              <p className=" text-center text-xl">{this.title}</p>
+              <p className=" text-center text-base mt-4">{this.shortDesc}</p>
+            </div>
           </div>
         </div>
-      </div>
+      </Link>
     );
   }
 }

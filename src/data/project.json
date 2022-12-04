@@ -15,6 +15,11 @@
                 "title": "Tailwind CSS",
                 "img": "TAILWIND.svg",
                 "background": false
+            },
+            {
+                "title": "Git",
+                "img": "GIT.svg",
+                "background": false
             }
         ]    
     },
@@ -46,6 +51,11 @@
                 "background": false
             },
             {
+                "title": "Bootstrap",
+                "img": "BOOTSTRAP.svg",
+                "background": false
+            },
+            {
                 "title": "JavaScript",
                 "img": "JS.svg",
                 "background": false
@@ -59,6 +69,40 @@
                 "title": "SQL Server",
                 "img": "SQLSERVER.png",
                 "background": true
+            },
+            {
+                "title": "Git",
+                "img": "GIT.svg",
+                "background": false
+            }
+        ]    
+    },
+    {
+        "id":"3",
+        "title": "Obbymedia - U me Jobs",
+        "img": "https://www.umih87.fr/assets/components/umih87/images/actualites/umih87-ume.jpg",
+        "shortDesc": "Application de mise en relation recruteur et demandeur d'emploi",
+        "longDesc": "",
+        "langages": [
+            {
+                "title": "Dart",
+                "img": "DART.svg",
+                "background": false
+            },
+            {
+                "title": "Flutter",
+                "img": "FLUTTER.svg",
+                "background": false
+            },
+            {
+                "title": "Git",
+                "img": "GIT.svg",
+                "background": false
+            },
+            {
+                "title": "Postman",
+                "img": "POSTMAN.svg",
+                "background": false
             }
         ]    
     }

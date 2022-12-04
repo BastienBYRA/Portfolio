@@ -8,7 +8,7 @@ class GridStack extends React.Component {
     this.category = this.props.category;
     this.langages = this.props.langages;
     this.firstDiv_GridColSpan =
-      "flex p-6 flex-col backdrop-blur-md bg-black/20 hover:bg-black/60 duration-300 border-transparent border-2 hover:border-slate-600 rounded-lg relative";
+      "flex p-6 flex-col backdrop-blur-md bg-black/40 hover:bg-black/60 duration-300 border-transparent border-2 hover:border-slate-600 rounded-lg relative";
     this.secondDiv_GridNbElement =
       "grid grid-flow-row gap-y-4 gap-x-1 items-center my-auto";
     this.state = {
@@ -29,12 +29,12 @@ class GridStack extends React.Component {
     var gridColNumber = null;
     var gridColSpan = null;
 
-    if (this.langages.length >= 5) {
+    if (this.langages.length >= 6) {
       gridColNumber =
         "grid-cols-" +
         Math.floor(this.langages.length / 2).toString() +
         " sm:grid-cols-" +
-        this.langages.length;
+        this.langages.length.toString();
       gridColSpan = "col-span-1 sm:col-span-2";
     } else if (this.langages.length === 5) {
       gridColNumber = "grid-cols-3";

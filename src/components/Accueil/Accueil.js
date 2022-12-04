@@ -12,7 +12,7 @@ class Accueil extends React.Component {
     return (
       <div
         className="flex flex-col items-center place-content-center mt-6
-         lg:flex-row lg:pb-16 lg:mt-12"
+         lg:flex-row lg:pb-16 lg:mt-16 lg:mb-8"
       >
         <div className="lg:w-[50vw] mx-auto">
           <img

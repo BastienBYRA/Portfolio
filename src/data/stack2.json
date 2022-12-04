@@ -32,6 +32,11 @@
                 "id": "6",
                 "img": "TAILWIND.svg", 
                 "name": "Tailwind CSS"
+            },
+            {
+                "id": "7",
+                "img": "BOOTSTRAP.svg", 
+                "name": "Bootstrap"
             }
         ]
     },
@@ -102,9 +107,45 @@
         "category": "Scripting",
         "langages": [
             {
-                "id": "15",
+                "id": "1",
                 "img": "PYTHON.svg",
                 "name": "Python"
+            }
+        ]
+    },
+    {
+        "id": "6",
+        "category": "Outils",
+        "langages": [
+            {
+                "id": "1",
+                "img": "GIT.svg",
+                "name": "Git"
+            },
+            {
+                "id": "2",
+                "img": "GITHUB.svg",
+                "name": "Github"
+            },
+            {
+                "id": "3",
+                "img": "GITLAB.svg",
+                "name": "Gitlab"
+            },
+            {
+                "id": "4",
+                "img": "DOCKER.webp",
+                "name": "Docker"
+            },
+            {
+                "id": "5",
+                "img": "POSTMAN.svg",
+                "name": "Postman"
+            },
+            {
+                "id": "6",
+                "img": "SELENIUM.png",
+                "name": "Selenium"
             }
         ]
     }
