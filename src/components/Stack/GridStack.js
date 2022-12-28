@@ -29,12 +29,15 @@ class GridStack extends React.Component {
     var gridColNumber = null;
     var gridColSpan = null;
 
-    if (this.langages.length >= 6) {
+    if (this.langages.length === 6) {
       gridColNumber =
         "grid-cols-" +
         Math.floor(this.langages.length / 2).toString() +
         " sm:grid-cols-" +
         this.langages.length.toString();
+      gridColSpan = "col-span-1 sm:col-span-2";
+    } else if (this.langages.length >= 7 && this.langages.length <= 8) {
+      gridColNumber = "grid-cols-3 sm:grid-cols-4";
       gridColSpan = "col-span-1 sm:col-span-2";
     } else if (this.langages.length === 5) {
       gridColNumber = "grid-cols-3";

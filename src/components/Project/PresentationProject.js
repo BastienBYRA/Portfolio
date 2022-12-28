@@ -37,7 +37,7 @@ class PresentationProject extends React.Component {
           </div>
           <div>
             <img
-              src={this.img}
+              src={process.env.PUBLIC_URL + "/project/" + this.img}
               className="aspect-video rounded-t-xl border-b-2 border-neutral-600"
             />
             <div className="py-4 px-5">

@@ -10,10 +10,6 @@ class Image extends React.Component {
     this.styleNormal = "h-12 object-contain";
   }
 
-  //   componentDidMount() {
-  //     console.log(this.img);
-  //   }
-
   render() {
     return (
       <>
