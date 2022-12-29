@@ -28,6 +28,7 @@ class PresentationProject extends React.Component {
               this.langages.map((langage, i) => {
                 return (
                   <Image
+                    key={nanoid()}
                     title={langage.title}
                     img={process.env.PUBLIC_URL + "/stack/" + langage.img}
                     background={langage.background}

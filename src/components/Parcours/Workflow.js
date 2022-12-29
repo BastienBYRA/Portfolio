@@ -41,10 +41,12 @@ class Workflow extends React.Component {
         transition ease-in-out duration-300"
         >
           <div className="flex flex-row">
-            <img
-              className="max-w-[140px] object-contain w-[30vw] bg-white"
-              src={this.img}
-            />
+            {this.img && (
+              <img
+                className="max-w-[140px] object-contain w-[30vw] max-h-20 bg-white"
+                src={this.img}
+              />
+            )}
             <img
               className="ml-auto w-12 h-12"
               src={this.type == "school" ? school : work}

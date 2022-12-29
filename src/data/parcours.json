@@ -17,19 +17,19 @@
                 "type":"work",
                 "missions": [
                     {
-                        "title": "▷ Fait de la documentation technique / utilisateur"
+                        "title": "➜ Fait de la documentation technique / utilisateur"
                     },
                     {
-                        "title": "▶ Refonte graphique"
+                        "title": "➜ Refonte graphique"
                     },
                     {
-                        "title": "▷ Sécurisation / Gestion des erreurs"
+                        "title": "➜ Sécurisation / Gestion des erreurs"
                     },
                     {
-                        "title": "▶ Ajout de nouvelles fonctionnalités"
+                        "title": "➜ Ajout de nouvelles fonctionnalités"
                     },
                     {
-                        "title": "▷ Optimiser le code précédent"
+                        "title": "➜ Optimiser le code précédent"
                     }
                 ]
             }
@@ -53,10 +53,10 @@
                 "type":"work",
                 "missions": [
                     {
-                        "title": "▷ Refonte technique de l'application."
+                        "title": "➜ Refonte technique de l'application."
                     },
                     {
-                        "title": "▶ Optimiser le code précédent."
+                        "title": "➜ Optimiser le code précédent."
                     }
                 ]
             },
@@ -67,13 +67,40 @@
                 "type":"work",
                 "missions": [
                     {
-                        "title": "▷ Création de scripts de récupération de données."
+                        "title": "➜ Création de scripts de récupération de données."
                     },
                     {
-                        "title": "▶ Création de scripts de manipulation de données."
+                        "title": "➜ Création de scripts de manipulation de données."
                     },
                     {
-                        "title": "▷ Création de scripts d'équivalence a partir de la manipulation des données effectué."
+                        "title": "➜ Création de scripts d'équivalence a partir de la manipulation des données effectué."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "year": "2017 - 2020",
+        "experience": [
+            {
+                "img":"https://lyceepro-pessac.fr/wp-content/uploads/2022/05/logo-philadelphe-de-gerde.jpg",
+                "title":"FORMATION : Lycée pro Philadelphe de Gerde, Bac +0 - 3 ans",
+                "content":"Pendant ces trois années de Bac Pro, j'ai pu apprendre le réseau, l'électronique, la maintenance des appareils informatique",
+                "type":"school",
+                "missions": null
+            },
+            {
+                "img": "https://assets.leparisien.fr/website/images/promo-codes/brand-logo/cybertek.png",
+                "title": "EXPERIENCE : Stage chez Cybertek, Tekmedia, EXT et JMCL - 21 semaines (Pendant les 3 ans)",
+                "content": "J'ai surtout pendant mes stages de BTS réalisé de la maintenance Software et Hardware d'ordinateur.",
+                "type":"work",
+                "missions": [
+                    {
+                        "title": "➜ Montage / Demontage de Tour / PC portable."
+                    },
+                    {
+                        "title": "➜ Diagnostic de problème Hardware et Software."
                     }
                 ]
             }
