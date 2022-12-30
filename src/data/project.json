@@ -4,7 +4,7 @@
         "title": "Mon site portfolio",
         "img": "https://wallpaperaccess.com/full/945950.jpg",
         "shortDesc": "Un site réalisé par mes soins afin de me présenter.",
-        "longDesc": "",
+        "longDesc": "Mon site portfolio réalisé avec React Component et le framework CSS Tailwind CSS permettant de me présenter.",
         "langages": [
             {
                 "title": "React",
@@ -21,14 +21,16 @@
                 "img": "GIT.svg",
                 "background": false
             }
-        ]    
+        ],
+        "missions": null,
+        "job": "Developpeur Front-End"
     },
     {
         "id":"2",
         "title": "Acteon Satelec - DIGIT-ACTEON",
         "img": "ACTEON.png",
         "shortDesc": "Site web interne de l'entreprise Acteon Satelec.",
-        "longDesc": "",
+        "longDesc": "Digit-Acteon est une web application ASP.NET MVC interne à l'entreprise Acteon permettant de réaliser l'ensemble des processus jusqu'alors papier numériquement, l'application a pour but de centraliser un ensemble de processus en une application en assurant l'intégrité des données",
         "langages": [
             {
                 "title": "C#",
@@ -75,14 +77,32 @@
                 "img": "GIT.svg",
                 "background": false
             }
-        ]    
+        ],
+        "missions": [
+            {
+                "title": "➜ Faire de la documentation technique / utilisateur."
+            },
+            {
+                "title": "➜ Refonte graphique."
+            },
+            {
+                "title": "➜ Sécurisation / Gestion des erreurs."
+            },
+            {
+                "title": "➜ Ajout de nouvelles fonctionnalités."
+            },
+            {
+                "title": "➜ Optimisation le code précédent."
+            }
+        ],
+        "job": "Developpeur Full-Stack"
     },
     {
         "id":"3",
         "title": "Obbymedia - U me Jobs",
         "img": "OBBYMEDIA.png",
         "shortDesc": "Application mobile de mise en relation recruteur / demandeur d'emploi",
-        "longDesc": "",
+        "longDesc": "U me Jobs est une application mobile créer avec Flutter disponible sur le Play Store et l'App Store mettant en relation des candidats et des professionnels de l'hotellerie restauration en Nouvelle Aquitaine",
         "langages": [
             {
                 "title": "Dart",
@@ -104,14 +124,23 @@
                 "img": "POSTMAN.svg",
                 "background": false
             }
-        ]    
+        ],
+        "missions": [
+            {
+                "title": "➜ Refonte technique de l'application."
+            },
+            {
+                "title": "➜ Optimiser le code précédent."
+            }
+        ],
+        "job": "Developpeur Mobile"
     },
     {
         "id":"4",
         "title": "EMS Proto - Web Scrapping",
         "img": "EMSPROTO.png",
         "shortDesc": "Script de collecte de données des sites Mouser et Digikey",
-        "longDesc": "",
+        "longDesc": "Un ensemble de script réalisé en Python avec la librairie Selenium permettant de récupérer des données en ligne sur les sites de Mouser et Digikey, afin de pouvoir rechercher et des comparaisons entre les différentes données collecté.",
         "langages": [
             {
                 "title": "Python",
@@ -123,6 +152,15 @@
                 "img": "SELENIUM.png",
                 "background": false
             }
-        ]    
+        ],
+        "missions": [
+            {
+                "title": "➜ Montage / Demontage de Tour / PC portable."
+            },
+            {
+                "title": "➜ Diagnostic de problème Hardware et Software."
+            }
+        ],
+        "job": "Developpeur de Scripts"
     }
 ]

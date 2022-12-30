@@ -17,7 +17,7 @@
                 "type":"work",
                 "missions": [
                     {
-                        "title": "➜ Fait de la documentation technique / utilisateur"
+                        "title": "➜ Faire de la documentation technique / utilisateur"
                     },
                     {
                         "title": "➜ Refonte graphique"
@@ -29,7 +29,7 @@
                         "title": "➜ Ajout de nouvelles fonctionnalités"
                     },
                     {
-                        "title": "➜ Optimiser le code précédent"
+                        "title": "➜ Optimisation le code précédent"
                     }
                 ]
             }
