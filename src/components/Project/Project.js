@@ -25,7 +25,7 @@ class Project extends React.Component {
   render() {
     return (
       <div
-        id="Projet"
+        id="Projets"
         className="px-4 sm:px-8 md:px-20 py-16 pt-16 flex flex-col mx-auto items-center justify-center bg-zinc-800 text-zinc-200"
       >
         <h1 className="text-4xl font-bold">Projets</h1>

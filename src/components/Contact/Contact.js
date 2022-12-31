@@ -20,10 +20,16 @@ class Contact extends React.Component {
         </p>
         <div className="pt-16 flex flex-col justify-center items-center">
           <p className="text-lg font-semibold">
-            Email : byra.bastien@gmail.com
+            Email :{" "}
+            <a href="mailto:byra.bastien@gmail.com">
+              <span className="underline">byra.bastien@gmail.com</span>
+            </a>
           </p>
           <p className="text-lg font-semibold mt-4">
-            Téléphone : 07 67 60 59 65
+            Téléphone :{" "}
+            <a href="tel:+33767605965">
+              <span className="underline">07 67 60 59 65</span>
+            </a>
           </p>
           <a
             target="_blank"

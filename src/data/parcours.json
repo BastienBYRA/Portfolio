@@ -42,14 +42,14 @@
             {
                 "img":"https://file.diplomeo-static.com/file/00/00/01/48/14869.svg",
                 "title":"FORMATION : Apprentissage au Lycée Gustave Eiffel BTS SIO SLAM, Bac +2 - 2 ans",
-                "content":"Pendant ces deux années de BTS, j'ai pu apprendre mes la programmation web, objet, mobile, la cybersécurité, l'agilité, l'administration Linux, la manipulation de SGDB / Base de données et ce qui l'entoure (TLDR : CNIL, RGPD)",
+                "content":"Pendant ces deux années de BTS, j'ai pu apprendre la programmation web, objet, mobile, la cybersécurité, l'agilité, l'administration Linux, la manipulation de SGDB / Base de données et ce qui l'entoure (TLDR : CNIL, RGPD)",
                 "type":"school",
                 "missions": null
             },
             {
                 "img": "https://www.obbymedia.fr/wp-content/uploads/2022/05/Logo-ObbyMedia-RVB-fc.png",
                 "title": "EXPERIENCE : Stage chez Obbymedia - 8 semaines (2ème année de BTS)",
-                "content": "J'ai travailler sur une refonte complète de leur application pré-existante 'U me Jobs', mon objectif était de refaire l'application déja existante en Angular / Ionic en Flutter.",
+                "content": "J'ai travaillé sur une refonte complète de leur application pré-existante 'U me Jobs', mon objectif était de refaire l'application déja existante en Angular / Ionic en Flutter.",
                 "type":"work",
                 "missions": [
                     {
@@ -63,17 +63,17 @@
             {
                 "img": "https://www.unitec.fr/wp-content/uploads/2018/07/emsproto_logo.png",
                 "title": "EXPERIENCE : Stage chez EMS Proto - 6 semaines (1ère année de BTS)",
-                "content": "J'ai travailler sur des scripts de scrapping afin de récupérer des données sur les sites de Digikey et Mouser, ainsi que des scripts de manipulation des données et d'équivalence.",
+                "content": "J'ai travaillé sur des scripts de scrapping afin de récupérer des données sur les sites de Digikey et Mouser, ainsi que des scripts de manipulation des données et d'équivalence.",
                 "type":"work",
                 "missions": [
                     {
                         "title": "➜ Création de scripts de récupération de données."
                     },
                     {
-                        "title": "➜ Création de scripts de manipulation de données."
+                        "title": "➜ Création d'un script de manipulation de données."
                     },
                     {
-                        "title": "➜ Création de scripts d'équivalence a partir de la manipulation des données effectué."
+                        "title": "➜ Création d'un script d'équivalence a partir de la manipulation des données effectuées."
                     }
                 ]
             }

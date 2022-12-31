@@ -21,6 +21,7 @@ class App extends React.Component {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/project/:id" element={<Details />} />
+            <Route path="*" element={<Home />} />
           </Routes>
         </BrowserRouter>
       </div>

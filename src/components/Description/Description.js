@@ -11,6 +11,7 @@ class Description extends React.Component {
 
   componentDidMount() {
     this.getDetailProject(this.paramsId);
+    window.scrollTo(0, 0);
   }
 
   getDetailProject = (id) => {

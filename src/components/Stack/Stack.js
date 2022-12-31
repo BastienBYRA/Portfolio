@@ -13,7 +13,7 @@ class Stack extends React.Component {
   render() {
     return (
       <div
-        id="Stack"
+        id="Skills"
         className="px-4 sm:px-8 md:px-20 py-16 pt-16 bg-stack object-scale-down text-neutral-200 bg-no-repeat bg-cover"
       >
         <h2 className="text-4xl font-bold text-center">Skills</h2>

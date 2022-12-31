@@ -78,6 +78,7 @@ class GridStack extends React.Component {
                     key={nanoid()}
                     name={langage.name}
                     img={langage.img}
+                    background={langage.background}
                   />
                 );
               })}

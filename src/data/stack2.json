@@ -6,37 +6,44 @@
             {
                 "id": "1",
                 "img": "HTML.svg",
-                "name": "HTML"
+                "name": "HTML",
+                "background": false
             },
             {
                 "id": "2",
                 "img": "CSS.svg",
-                "name": "CSS"
+                "name": "CSS",
+                "background": false
             },
             {
                 "id": "3",
                 "img": "JS.svg",
-                "name": "JavaScript"
+                "name": "JavaScript",
+                "background": false
             },
             {
                 "id": "4",
                 "img": "REACT.svg", 
-                "name": "React"
+                "name": "React",
+                "background": false
             },
             {
                 "id": "5",
                 "img": "JQUERY.png", 
-                "name": "JQuery"
+                "name": "JQuery",
+                "background": false
             },
             {
                 "id": "6",
                 "img": "TAILWIND.svg", 
-                "name": "Tailwind CSS"
+                "name": "Tailwind CSS",
+                "background": false
             },
             {
                 "id": "7",
                 "img": "BOOTSTRAP.svg", 
-                "name": "Bootstrap"
+                "name": "Bootstrap",
+                "background": false
             }
         ]
     },
@@ -48,22 +55,26 @@
             {
                 "id": "1",
                 "img": "CSHARP.svg",
-                "name": "C#"
+                "name": "C#",
+                "background": false
             },
             {
                 "id": "2",
                 "img": "NET.svg",
-                "name": "ASP.NET"
+                "name": "ASP.NET",
+                "background": false
             },
             {
                 "id": "3",
                 "img": "JAVA.svg",
-                "name": "Java"
+                "name": "Java",
+                "background": false
             },
             {
                 "id": "4",
                 "img": "PHP.svg",
-                "name": "PHP"
+                "name": "PHP",
+                "background": false
             }
         ]
     },
@@ -75,12 +86,14 @@
             {
                 "id": "1",
                 "img": "MYSQL.svg",
-                "name": "MySQL"
+                "name": "MySQL",
+                "background": false
             },
             {
                 "id": "2",
                 "img": "SQLSERVER.png",
-                "name": "SQL Server"
+                "name": "SQL Server",
+                "background": true
             }
         ]
     },
@@ -92,12 +105,14 @@
             {
                 "id": "1",
                 "img": "DART.svg",
-                "name": "Dart"
+                "name": "Dart",
+                "background": false
             },
             {
                 "id": "2",
                 "img": "FLUTTER.svg",
-                "name": "Flutter"
+                "name": "Flutter",
+                "background": false
             }
         ]
     },
@@ -109,7 +124,8 @@
             {
                 "id": "1",
                 "img": "PYTHON.png",
-                "name": "Python"
+                "name": "Python",
+                "background": false
             }
         ]
     },
@@ -120,32 +136,38 @@
             {
                 "id": "1",
                 "img": "GIT.svg",
-                "name": "Git"
+                "name": "Git",
+                "background": false
             },
             {
                 "id": "2",
                 "img": "GITHUB.svg",
-                "name": "Github"
+                "name": "Github",
+                "background": false
             },
             {
                 "id": "3",
                 "img": "LINUX.svg",
-                "name": "Linux"
+                "name": "Linux",
+                "background": false
             },
             {
                 "id": "4",
                 "img": "DOCKER.webp",
-                "name": "Docker"
+                "name": "Docker",
+                "background": false
             },
             {
                 "id": "5",
                 "img": "POSTMAN.svg",
-                "name": "Postman"
+                "name": "Postman",
+                "background": false
             },
             {
                 "id": "6",
                 "img": "SELENIUM.png",
-                "name": "Selenium"
+                "name": "Selenium",
+                "background": false
             }
         ]
     }

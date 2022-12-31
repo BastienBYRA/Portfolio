@@ -24,8 +24,12 @@ class Presentation extends React.Component {
           <div className="flex flex-row items-center">
             <p className=" text-xl font-bold sm:text-2xl"> 👋 Bonjour ! </p>
             <div className="flex items-center gap-4 justify-end ml-auto">
-              <img className="w-8 h-8" src={github} alt="Github" />
-              <img className="w-8 h-8" src={email} alt="Mon mail" />
+              <a href="https://github.com/BastienBYRA" target="_blank">
+                <img className="w-8 h-8" src={github} alt="Github" />
+              </a>
+              <a href="mailto:byra.bastien@gmail.com">
+                <img className="w-8 h-8" src={email} alt="Mon email" />
+              </a>
             </div>
           </div>
 
@@ -48,7 +52,7 @@ class Presentation extends React.Component {
             savoir et mes compétences a votre service.
           </p>
 
-          <div className="mt-5 gap-3">
+          {/* <div className="mt-5 gap-3">
             <Button
               key={nanoid()}
               content={"Parcours"}
@@ -57,14 +61,14 @@ class Presentation extends React.Component {
             />
             <Button
               key={nanoid()}
-              content={"Stack"}
-              scrollTo={"#Stack"}
+              content={"Skills"}
+              scrollTo={"#Skills"}
               styleType={1}
             />
             <Button
               key={nanoid()}
-              content={"Projet"}
-              scrollTo={"#Projet"}
+              content={"Projets"}
+              scrollTo={"#Projets"}
               styleType={1}
             />
             <Button
@@ -73,7 +77,7 @@ class Presentation extends React.Component {
               scrollTo={"#Contact"}
               styleType={2}
             />
-          </div>
+          </div> */}
         </div>
       </div>
     );
