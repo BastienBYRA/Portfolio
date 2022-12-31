@@ -11,8 +11,8 @@ class Accueil extends React.Component {
   render() {
     return (
       <div
-        className="flex flex-col items-center place-content-center mt-6
-         lg:flex-row lg:pb-16 lg:mt-16 lg:mb-8"
+        className="bg-neutral-100 flex flex-col items-center place-content-center pt-6
+         lg:flex-row lg:pb-20 lg:pt-16 lg:mb-8"
       >
         <div className="lg:w-[50vw] mx-auto">
           <img

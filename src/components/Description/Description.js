@@ -20,7 +20,7 @@ class Description extends React.Component {
 
   render() {
     return (
-      <div className="px-4 md:px-20 2xl:px-60 py-10 bg-zinc-900 text-neutral-200">
+      <div className="px-4 md:px-20 2xl:px-60 py-10 bg-zinc-800 text-neutral-200">
         {this.state.currentProject && (
           <div>
             <h1 className="text-4xl font-bold text-center underline">
