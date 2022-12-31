@@ -5,6 +5,7 @@ import Stack from "../components/Stack/Stack";
 import Project from "../components/Project/Project";
 import { nanoid } from "nanoid";
 import Contact from "../components/Contact/Contact";
+import Header from "./../layouts/Header";
 
 class Home extends React.Component {
   constructor(props) {
@@ -14,6 +15,7 @@ class Home extends React.Component {
   render() {
     return (
       <div>
+        <Header key={nanoid()} isMainPage={true} />
         <Accueil key={nanoid()} />
         <Parcours key={nanoid()} />
         <Stack key={nanoid()} />

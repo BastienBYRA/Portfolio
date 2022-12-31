@@ -15,8 +15,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App bg-zinc-800">
-        <Header key={nanoid()} />
-
+        {/* <Header key={nanoid()} /> */}
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Home />} />

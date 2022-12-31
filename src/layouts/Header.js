@@ -7,6 +7,7 @@ class Header extends React.Component {
     this.headerShrink = React.createRef();
     this.showMenuTitle = React.createRef();
     this.burger = React.createRef();
+    this.isMainPage = this.isMainPage;
     this.state = { showMenu: false, marginTop: null };
   }
 
@@ -127,31 +128,61 @@ class Header extends React.Component {
             <p className="underline block text-lg">Contact</p>
           </div>
         )} */}
-        <div
-          ref={this.showMenuTitle}
-          className="mt-auto hidden transition duration-1000 translate-x-[100vw] mb-28"
-        >
-          <a onClick={() => this.hideMenu()} href="#Parcours">
-            <p className="w-fit underline block text-2xl duration-150 sm:text-4xl mb-2 hover:text-6xl hover:mb-5">
-              Parcours
-            </p>
-          </a>
-          <a onClick={() => this.hideMenu()} href="#Skills">
-            <p className="w-fit underline block text-2xl duration-150 sm:text-4xl mb-2 hover:text-6xl hover:mb-5">
-              Skills
-            </p>
-          </a>
-          <a onClick={() => this.hideMenu()} href="#Projets">
-            <p className="w-fit underline block text-2xl duration-150 sm:text-4xl mb-2 hover:text-6xl hover:mb-5">
-              Projets
-            </p>
-          </a>
-          <a onClick={() => this.hideMenu()} href="#Contact">
-            <p className="w-fit underline block text-2xl duration-150 sm:text-4xl mb-2 hover:text-6xl hover:mb-5">
-              Contact
-            </p>
-          </a>
-        </div>
+        {this.isMainPage && (
+          <div
+            ref={this.showMenuTitle}
+            className="mt-auto hidden transition duration-1000 translate-x-[100vw] mb-28"
+          >
+            <a onClick={() => this.hideMenu()} href="#Parcours">
+              <p className="w-fit underline block text-2xl duration-150 sm:text-4xl mb-2 hover:text-6xl hover:mb-5">
+                Parcours
+              </p>
+            </a>
+            <a onClick={() => this.hideMenu()} href="#Skills">
+              <p className="w-fit underline block text-2xl duration-150 sm:text-4xl mb-2 hover:text-6xl hover:mb-5">
+                Skills
+              </p>
+            </a>
+            <a onClick={() => this.hideMenu()} href="#Projets">
+              <p className="w-fit underline block text-2xl duration-150 sm:text-4xl mb-2 hover:text-6xl hover:mb-5">
+                Projets
+              </p>
+            </a>
+            <a onClick={() => this.hideMenu()} href="#Contact">
+              <p className="w-fit underline block text-2xl duration-150 sm:text-4xl mb-2 hover:text-6xl hover:mb-5">
+                Contact
+              </p>
+            </a>
+          </div>
+        )}
+
+        {!this.isMainPage && (
+          <div
+            ref={this.showMenuTitle}
+            className="mt-auto hidden transition duration-1000 translate-x-[100vw] mb-28"
+          >
+            <a onClick={() => this.hideMenu()} href="/Portfolio/#Parcours">
+              <p className="w-fit underline block text-2xl duration-150 sm:text-4xl mb-2 hover:text-6xl hover:mb-5">
+                Parcours
+              </p>
+            </a>
+            <a onClick={() => this.hideMenu()} href="/Portfolio/#Skills">
+              <p className="w-fit underline block text-2xl duration-150 sm:text-4xl mb-2 hover:text-6xl hover:mb-5">
+                Skills
+              </p>
+            </a>
+            <a onClick={() => this.hideMenu()} href="/Portfolio/#Projets">
+              <p className="w-fit underline block text-2xl duration-150 sm:text-4xl mb-2 hover:text-6xl hover:mb-5">
+                Projets
+              </p>
+            </a>
+            <a onClick={() => this.hideMenu()} href="/Portfolio/#Contact">
+              <p className="w-fit underline block text-2xl duration-150 sm:text-4xl mb-2 hover:text-6xl hover:mb-5">
+                Contact
+              </p>
+            </a>
+          </div>
+        )}
       </header>
 
       // <header
