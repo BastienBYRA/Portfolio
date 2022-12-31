@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.094d9073.css",
+    "main.js": "/static/js/main.ed47e552.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/BYRA.jpg": "/static/media/BYRA.bad3833a6dd5284f81c4.jpg",
+    "static/media/stack.jpg": "/static/media/stack.62c5659d982276a87a76.jpg",
+    "static/media/CV_BYRA.pdf": "/static/media/CV_BYRA.d17ff6e4db6502ae046d.pdf",
+    "static/media/github.svg": "/static/media/github.3ea7d9bcdf7bb4836e2175ac2a12c306.svg",
+    "index.html": "/index.html",
+    "static/media/menu.svg": "/static/media/menu.bc000352fd74778c5de2d365bcacbf4c.svg",
+    "static/media/work.svg": "/static/media/work.f3be4dfe52911e176286b625d7364496.svg",
+    "static/media/school.svg": "/static/media/school.2f6d1be5ec3a74e5207a8a9b6fc8dd00.svg",
+    "static/media/email.svg": "/static/media/email.5a387e74dbef285fe81a3cd40ea170b5.svg",
+    "main.094d9073.css.map": "/static/css/main.094d9073.css.map",
+    "main.ed47e552.js.map": "/static/js/main.ed47e552.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.094d9073.css",
+    "static/js/main.ed47e552.js"
+  ]
+}
