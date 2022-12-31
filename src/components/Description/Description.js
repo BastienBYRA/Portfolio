@@ -27,7 +27,7 @@ class Description extends React.Component {
             <h1 className="text-4xl font-bold text-center underline">
               {this.state.currentProject.title}
             </h1>
-            <h2 className="text-xl text-center mt-10">
+            <h2 className="text-base sm:text-xl text-center mt-10">
               {this.state.currentProject.longDesc}
             </h2>
             <div className="mt-8">
@@ -41,7 +41,7 @@ class Description extends React.Component {
               />
             </div>
 
-            <p className="text-2xl underline mt-5 text-center">
+            <p className="sm:text-2xl underline mt-5 text-center">
               ~ {this.state.currentProject.job} ~
             </p>
 
@@ -51,9 +51,7 @@ class Description extends React.Component {
                 {this.state.currentProject.missions.map((mission, i) => {
                   return (
                     <div className="flex flex-row items-center gap-4 mt-3 pl-8">
-                      <p className="text-sm sm:text-md lg:text-lg">
-                        {mission.title}
-                      </p>
+                      <p className="text-md sm:text-lg">{mission.title}</p>
                     </div>
                   );
                 })}
@@ -61,7 +59,7 @@ class Description extends React.Component {
             )}
 
             <p className="text-2xl underline mt-8">Les technos :</p>
-            <div className="grid grid-cols-3">
+            <div className="grid grid-cols-1 ssm:grid-cols-2 sm:grid-cols-3">
               {this.state.currentProject.langages.map((langage, i) => {
                 return (
                   <div className="flex flex-row items-center gap-4 mt-3 justify-center">

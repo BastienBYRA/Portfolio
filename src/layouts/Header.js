@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import menuIcon from "../assets/icons/menu.svg";
 
 class Header extends React.Component {
@@ -7,7 +8,7 @@ class Header extends React.Component {
     this.headerShrink = React.createRef();
     this.showMenuTitle = React.createRef();
     this.burger = React.createRef();
-    this.isMainPage = this.isMainPage;
+    this.isMainPage = this.props.isMainPage;
     this.state = { showMenu: false, marginTop: null };
   }
 
@@ -161,26 +162,11 @@ class Header extends React.Component {
             ref={this.showMenuTitle}
             className="mt-auto hidden transition duration-1000 translate-x-[100vw] mb-28"
           >
-            <a onClick={() => this.hideMenu()} href="/Portfolio/#Parcours">
+            <Link to="/Portfolio">
               <p className="w-fit underline block text-2xl duration-150 sm:text-4xl mb-2 hover:text-6xl hover:mb-5">
-                Parcours
+                Page d'accueil
               </p>
-            </a>
-            <a onClick={() => this.hideMenu()} href="/Portfolio/#Skills">
-              <p className="w-fit underline block text-2xl duration-150 sm:text-4xl mb-2 hover:text-6xl hover:mb-5">
-                Skills
-              </p>
-            </a>
-            <a onClick={() => this.hideMenu()} href="/Portfolio/#Projets">
-              <p className="w-fit underline block text-2xl duration-150 sm:text-4xl mb-2 hover:text-6xl hover:mb-5">
-                Projets
-              </p>
-            </a>
-            <a onClick={() => this.hideMenu()} href="/Portfolio/#Contact">
-              <p className="w-fit underline block text-2xl duration-150 sm:text-4xl mb-2 hover:text-6xl hover:mb-5">
-                Contact
-              </p>
-            </a>
+            </Link>
           </div>
         )}
       </header>

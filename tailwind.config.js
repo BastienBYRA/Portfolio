@@ -8,6 +8,7 @@ module.exports = {
         stack: "url('assets/background/stack.jpg')",
       },
       screens: {
+        ssm: "420px",
         maxmd: { raw: "(max-height: 768px)" },
         // => @media (man-height: 768px) { ... }
       },
