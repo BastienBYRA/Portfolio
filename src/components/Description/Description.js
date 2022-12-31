@@ -32,7 +32,11 @@ class Description extends React.Component {
             </h2>
             <div className="mt-8">
               <img
-                src={this.state.currentProject.img}
+                src={
+                  process.env.PUBLIC_URL +
+                  "/project/" +
+                  this.state.currentProject.img
+                }
                 className="w-[70%] max-w-xl mx-auto"
               />
             </div>
