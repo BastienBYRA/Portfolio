@@ -98,7 +98,7 @@ class Header extends React.Component {
           className="flex items-center mt-auto mb-auto"
           ref={this.burger}
         >
-          <a href="/">
+          <a href="/Portfolio/">
             <h1>BYRA Bastien</h1>
           </a>
 
