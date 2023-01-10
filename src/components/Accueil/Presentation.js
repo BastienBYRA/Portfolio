@@ -33,23 +33,14 @@ class Presentation extends React.Component {
             </div>
           </div>
 
-          {/* <p className="text-lg mt-8">
-            Developpeur depuis plus de 3 ans situé sur Bordeaux.
-          </p>
-          <p className="text-lg mt-3">
-            Fort de plusieurs années de formation dans les differentes parties
-            du developpement informatique, je mets mon savoir et mes compétences
-            a votre service.
-          </p> */}
-
           <p className="text-lg mt-8">
-            Plongé dans le <b>monde informatique</b> depuis 5 ans et{" "}
-            <b>Developpeur</b> depuis plus de 3 ans situé sur Bordeaux.
+            Dans le <b>monde informatique</b> depuis 5 ans et <b>Développeur</b>{" "}
+            depuis plus de 3 ans.
           </p>
           <p className="text-lg mt-5">
-            Fort de plusieurs années de formation dans les differentes parties
-            de l'informatique et du developpement informatique, je mets mon
-            savoir et mes compétences a votre service.
+            Fort de plusieurs années de formation dans les différentes parties
+            de l'informatique et du développement informatique, je mets mon
+            savoir et mes compétences à votre service.
           </p>
 
           {/* <div className="mt-5 gap-3">

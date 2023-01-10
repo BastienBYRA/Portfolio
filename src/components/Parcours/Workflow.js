@@ -34,7 +34,7 @@ class Workflow extends React.Component {
     return (
       <div
         ref={this.mainDiv}
-        className=" opacity-0 duration-[2000ms] translate-x-[2%] sm:translate-x-[6%] lg:translate-x-[12%] xl:translate-x-[18%]"
+        className=" opacity-0 duration-[2000ms] translate-x-[2%] sm:translate-x-[6%] lg:translate-x-[12%] xl:translate-x-[18%] "
       >
         <div
           className="mt-5 border-white p-6 backdrop-blur-md bg-white/30 rounded-xl hover:bg-white/10

@@ -40,9 +40,9 @@ class Parcours extends React.Component {
           développement de solution informatique.
         </p> */}
         <p className="mt-6 text-lg px-8 text-center">
-          Fort d'une expérience de 5 ans dans le vaste monde de l'informatique,
-          dont 2 ans de spécialisation dans l'infrastructure réseau et 3 ans de
-          spécialisation dans le développement de solution informatique.
+          Fort d'une expérience de 5 ans dans l'informatique, dont 2 ans de
+          spécialisation dans l'infrastructure réseau et 3 ans de spécialisation
+          dans le développement de solution informatique.
         </p>
         {/* <h2 className="text-5xl sm:text-8xl font-bold opacity-30 relative bottom-20">
           Parcours

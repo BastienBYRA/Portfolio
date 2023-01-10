@@ -12,7 +12,7 @@ class Contact extends React.Component {
     return (
       <div
         id="Contact"
-        className="px-4 sm:px-8 md:px-20 py-16 pt-16 flex flex-col mx-auto items-center justify-center bg-neutral-200 "
+        className="px-4 sm:px-8 md:px-20 py-16 pt-16 flex flex-col mx-auto items-center justify-center bg-neutral-200"
       >
         <h1 className="text-4xl font-bold">Contact</h1>
         <p className="mt-6 text-lg px-8 text-center">

@@ -94,6 +94,12 @@
                 "img": "SQLSERVER.png",
                 "name": "SQL Server",
                 "background": true
+            },
+            {
+                "id": "3",
+                "img": "MONGODB.png",
+                "name": "MongoDB",
+                "background": false
             }
         ]
     },

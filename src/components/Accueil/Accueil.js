@@ -33,22 +33,6 @@ class Accueil extends React.Component {
           <Presentation />
         </div>
       </div>
-      // <div className="flex flex-col pt-10 pb-6">
-      //   <div className="mx-auto">
-      //     <h1 className="font-bold text-4xl sm:text-5xl lg:text-6xl">
-      //       BYRA Bastien
-      //     </h1>
-      //     <p className="text-xl mt-2 sm:text-2xl ">
-      //       Full-Stack Developer - Cybersécurité
-      //     </p>
-      //   </div>
-      //   <div>
-      //     <img
-      //       className="rounded-full w-[40vw] h-[40vw] object-contain mx-auto max-h-[225px] max-w-[225px]"
-      //       src={byra}
-      //     />
-      //   </div>
-      // </div>
     );
   }
 }

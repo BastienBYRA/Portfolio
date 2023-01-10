@@ -13,6 +13,7 @@ class Intro extends React.Component {
         <p className="text-xl mt-2 sm:text-2xl ">
           Full-Stack / Mobile Developer - Cybersecurity
         </p>
+        {/* <p className="text-md ">Situé sur Bordeaux</p> */}
       </div>
     );
   }

@@ -18,8 +18,8 @@ class Stack extends React.Component {
       >
         <h2 className="text-4xl font-bold text-center">Skills</h2>
         <p className="mt-6 text-lg px-8 text-center">
-          Au cours de mes 3 années en tant que developpeur, j'ai pu mettre mes
-          mains sur divers langages et outils.
+          Au cours de mes 3 années en tant que développeur, j'ai pu maitriser
+          différents langages et outils.
         </p>
         <div className="mt-12 mx-auto max-w-5xl gap-5 grid grid-cols-1 sm:grid-cols-2">
           {stackData2 &&

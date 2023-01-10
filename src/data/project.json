@@ -1,36 +1,10 @@
 [
     {
-        "id":"1",
-        "title": "Mon site portfolio",
-        "img": "PORTFOLIO2.png",
-        "shortDesc": "Un site réalisé par mes soins afin de me présenter.",
-        "longDesc": "Mon site portfolio réalisé avec React Component et le framework CSS 'Tailwind CSS' est un site web ayant pour but de me présenter.",
-        "langages": [
-            {
-                "title": "React",
-                "img": "REACT.svg",
-                "background": false
-            },
-            {
-                "title": "Tailwind CSS",
-                "img": "TAILWIND.svg",
-                "background": false
-            },
-            {
-                "title": "Git",
-                "img": "GIT.svg",
-                "background": false
-            }
-        ],
-        "missions": null,
-        "job": "Developpeur Front-End"
-    },
-    {
         "id":"2",
         "title": "Acteon Satelec - DIGIT-ACTEON",
         "img": "ACTEON2.png",
         "shortDesc": "Site web interne de l'entreprise Acteon Satelec.",
-        "longDesc": "Digit-Acteon est une web application ASP.NET MVC interne à l'entreprise Acteon permettant de réaliser l'ensemble des processus jusqu'alors sur papier maintenant numérique, l'application à pour but de centraliser un ensemble de processus en une application en assurant l'intégrité des données entre les différents processus.",
+        "longDesc": "Digit-Acteon est une web application ASP.NET MVC interne à l'entreprise Acteon permettant de réaliser l'ensemble des processus jusqu'alors sur papier maintenant numériquement, l'application à pour but de centraliser un ensemble de processus en une application en assurant l'intégrité des données entre les différents processus.",
         "langages": [
             {
                 "title": "C#",
@@ -98,11 +72,37 @@
         "job": "Developpeur Full-Stack"
     },
     {
+        "id":"1",
+        "title": "Mon site portfolio",
+        "img": "PORTFOLIO2.png",
+        "shortDesc": "Un site réalisé par mes soins afin de me présenter.",
+        "longDesc": "Mon site portfolio réalisé avec React Component et le framework CSS \"Tailwind CSS\" est un site web ayant pour but de me présenter.",
+        "langages": [
+            {
+                "title": "React",
+                "img": "REACT.svg",
+                "background": false
+            },
+            {
+                "title": "Tailwind CSS",
+                "img": "TAILWIND.svg",
+                "background": false
+            },
+            {
+                "title": "Git",
+                "img": "GIT.svg",
+                "background": false
+            }
+        ],
+        "missions": null,
+        "job": "Developpeur Front-End"
+    },
+    {
         "id":"3",
         "title": "Obbymedia - U me Jobs",
         "img": "OBBYMEDIA2.png",
         "shortDesc": "Application mobile de mise en relation recruteur / demandeur d'emploi.",
-        "longDesc": "U me Jobs est une application mobile créer avec Flutter disponible sur le Play Store et l'App Store mettant en relation des candidats et des professionnels de l'hotellerie restauration en Nouvelle Aquitaine.",
+        "longDesc": "U me Jobs est une application mobile créer en Flutter disponible sur le Play Store et l'App Store mettant en relation des candidats et des professionnels de l'hotellerie restauration en Nouvelle Aquitaine.",
         "langages": [
             {
                 "title": "Dart",
@@ -140,7 +140,7 @@
         "title": "EMS Proto - Web Scrapping",
         "img": "EMSPROTO.png",
         "shortDesc": "Script de collecte de données des sites Mouser et Digikey.",
-        "longDesc": "Un ensemble de script réalisé en Python avec la librairie Selenium permettant de récupérer des données en ligne sur les sites de Mouser et Digikey, afin de pouvoir rechercher et des comparaisons entre les différentes données collecté.",
+        "longDesc": "Un ensemble de script réalisé en Python avec la librairie Selenium permettant de récupérer des données en ligne sur les sites de Mouser et Digikey, afin de pouvoir rechercher et faire des comparaisons entre les différentes données collecté.",
         "langages": [
             {
                 "title": "Python",
@@ -155,10 +155,13 @@
         ],
         "missions": [
             {
-                "title": "➜ Montage / Demontage de Tour / PC portable."
+                "title": "➜ Création de scripts de récupération de données."
             },
             {
-                "title": "➜ Diagnostic de problème Hardware et Software."
+                "title": "➜ Création d'un script de manipulation de données."
+            },
+            {
+                "title": "➜ Création d'un script d'équivalence a partir de la manipulation des données effectuées."
             }
         ],
         "job": "Developpeur de Scripts"
