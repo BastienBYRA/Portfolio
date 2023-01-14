@@ -161,6 +161,22 @@ class Description extends React.Component {
                 </div>
               </div>
             )}
+
+            {this.state.currentProject.url && (
+              <div className="mb-8 inline-flex justify-center items-center">
+                <p className="text-2xl">
+                  <span className="underline">URL</span> :{" "}
+                </p>
+                <p className="text-2xl">&nbsp;</p>
+                <a
+                  className="font-bold px-6 py-2 rounded-sm bg-black/30 hover:bg-black/50 duration-300 border-transparent border-2"
+                  href={this.state.currentProject.url}
+                  target="_blank"
+                >
+                  Accéder a l'URL
+                </a>
+              </div>
+            )}
           </div>
         )}
 

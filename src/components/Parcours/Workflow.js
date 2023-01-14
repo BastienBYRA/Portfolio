@@ -61,7 +61,7 @@ class Workflow extends React.Component {
 
           {this.projectDetails && (
             <Link to={this.projectDetails}>
-              <p className="inline-block mt-4 font-bold px-6 py-2 rounded-sm bg-black/30 hover:bg-indigo-900 duration-300 border-transparent border-2">
+              <p className="inline-block mt-4 font-bold px-6 py-2 rounded-sm bg-black/30 hover:bg-black/50 duration-300 border-transparent border-2">
                 Consulter
               </p>
             </Link>

@@ -66,7 +66,7 @@ class Header extends React.Component {
 
       //Retire
     } else {
-      this.showMenuTitle.current.style.transform = "translateX(-50vw)";
+      this.showMenuTitle.current.style.transform = "translateX(-150vw)";
 
       setTimeout(() => {
         // this.headerShrink.current.style.borderBottom = "1px";
@@ -79,7 +79,7 @@ class Header extends React.Component {
 
   hideMenu = () => {
     this.setState({ showMenu: false });
-    this.showMenuTitle.current.style.transform = "translateX(-50vw)";
+    this.showMenuTitle.current.style.transform = "translateX(-150vw)";
 
     setTimeout(() => {
       // this.headerShrink.current.style.borderBottom = "1px";
@@ -100,7 +100,7 @@ class Header extends React.Component {
           className="flex items-center mt-auto mb-auto"
           ref={this.burger}
         >
-          <Link to="/">
+          <Link to="/Portfolio">
             <h1>BYRA Bastien</h1>
           </Link>
 
@@ -132,25 +132,25 @@ class Header extends React.Component {
         {this.isMainPage && (
           <div
             ref={this.showMenuTitle}
-            className="mt-auto hidden transition duration-1000 translate-x-[100vw] mb-28"
+            className="mt-auto hidden transition duration-1000 translate-x-[100vw] mb-28 md:mx-auto md:my-auto"
           >
             <a onClick={() => this.hideMenu()} href="#Parcours">
-              <p className="w-fit underline block text-2xl duration-150 sm:text-4xl mb-2 hover:text-6xl hover:mb-5">
+              <p className="w-fit underline block text-2xl duration-150 sm:text-4xl mb-2 md:mb-8 hover:text-6xl hover:mb-5 md:mx-auto">
                 Parcours
               </p>
             </a>
             <a onClick={() => this.hideMenu()} href="#Skills">
-              <p className="w-fit underline block text-2xl duration-150 sm:text-4xl mb-2 hover:text-6xl hover:mb-5">
+              <p className="w-fit underline block text-2xl duration-150 sm:text-4xl mb-2 md:mb-8 hover:text-6xl hover:mb-5 md:mx-auto">
                 Skills
               </p>
             </a>
             <a onClick={() => this.hideMenu()} href="#Projets">
-              <p className="w-fit underline block text-2xl duration-150 sm:text-4xl mb-2 hover:text-6xl hover:mb-5">
+              <p className="w-fit underline block text-2xl duration-150 sm:text-4xl mb-2 md:mb-8 hover:text-6xl hover:mb-5 md:mx-auto">
                 Projets
               </p>
             </a>
             <a onClick={() => this.hideMenu()} href="#Contact">
-              <p className="w-fit underline block text-2xl duration-150 sm:text-4xl mb-2 hover:text-6xl hover:mb-5">
+              <p className="w-fit underline block text-2xl duration-150 sm:text-4xl mb-2 md:mb-8 hover:text-6xl hover:mb-5 md:mx-auto">
                 Contact
               </p>
             </a>
@@ -160,10 +160,10 @@ class Header extends React.Component {
         {!this.isMainPage && (
           <div
             ref={this.showMenuTitle}
-            className="mt-auto hidden transition duration-1000 translate-x-[100vw] mb-28"
+            className="mt-auto hidden transition duration-1000 translate-x-[100vw] mb-28 md:mx-auto md:my-auto"
           >
-            <Link to="/">
-              <p className="w-fit underline block text-2xl duration-150 sm:text-4xl mb-2 hover:text-6xl hover:mb-5">
+            <Link to={"/Portfolio"}>
+              <p className="w-fit underline block text-2xl duration-150 sm:text-4xl mb-2 md:mb-8 hover:text-6xl hover:mb-5 md:mx-auto">
                 Page d'accueil
               </p>
             </Link>

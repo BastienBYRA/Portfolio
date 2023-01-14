@@ -117,7 +117,8 @@
                 "img": "insideProject.PNG"
             }
         ],
-        "job": "Developpeur Front-End"
+        "job": "Developpeur Front-End",
+        "url": "https://bastienbyra.github.io/Portfolio/"
     },
     {
         "id":"3",
@@ -155,7 +156,8 @@
                 "title": "➜ Optimiser le code précédent."
             }
         ],
-        "job": "Developpeur Mobile"
+        "job": "Developpeur Mobile",
+        "url": "https://ume.jobs/"
     },
     {
         "id":"4",
@@ -226,6 +228,7 @@
                 "img": "basket.PNG"
             }
         ],
-        "job": "Developpeur Front-End"
+        "job": "Developpeur Front-End",
+        "url": "https://marketplace-react-app-tau.vercel.app/"
     }
 ]
