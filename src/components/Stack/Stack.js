@@ -1,5 +1,4 @@
 import React from "react";
-import stackData from "../../data/stack.json";
 import stackData2 from "../../data/stack2.json";
 import { nanoid } from "nanoid";
 import GridStack from "./GridStack";

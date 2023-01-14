@@ -3,6 +3,7 @@ import Task from "./Task";
 import { nanoid } from "nanoid";
 import school from "../../assets/icons/school.svg";
 import work from "../../assets/icons/work.svg";
+import { Link } from "react-router-dom";
 
 class Workflow extends React.Component {
   constructor(props) {
@@ -12,6 +13,7 @@ class Workflow extends React.Component {
     this.content = this.props.content;
     this.tasks = this.props.tasks;
     this.type = this.props.type;
+    this.projectDetails = this.props.projectDetails;
     this.mainDiv = React.createRef();
   }
 
@@ -56,6 +58,14 @@ class Workflow extends React.Component {
           <p className="underline text-lg mt-1">{this.title}</p>
           <p className="text-md mt-2">{this.content}</p>
           {this.tasks && <Task tasks={this.tasks} />}
+
+          {this.projectDetails && (
+            <Link to={this.projectDetails}>
+              <p className="inline-block mt-4 font-bold px-6 py-2 rounded-sm bg-black/30 hover:bg-indigo-900 duration-300 border-transparent border-2">
+                Consulter
+              </p>
+            </Link>
+          )}
         </div>
       </div>
     );

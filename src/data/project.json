@@ -76,7 +76,7 @@
         "title": "Mon site portfolio",
         "img": "PORTFOLIO2.png",
         "shortDesc": "Un site réalisé par mes soins afin de me présenter.",
-        "longDesc": "Mon site portfolio réalisé avec React Component et le framework CSS \"Tailwind CSS\" est un site web ayant pour but de me présenter.",
+        "longDesc": "Mon site portfolio réalisé avec React (Component / Class) et le framework CSS \"Tailwind CSS\" est un site web ayant pour but de me présenter.",
         "langages": [
             {
                 "title": "React",
@@ -94,7 +94,29 @@
                 "background": false
             }
         ],
-        "missions": null,
+        "missions": [
+            {
+                "title":"➜ Conception graphique."
+            }
+        ],
+        "folderName": "portfolio",
+        "imageProject": [
+            {
+                "img": "mainPage.PNG"
+            },
+            {
+                "img": "project.PNG"
+            },
+            {
+                "img": "parcours.PNG"
+            },
+            {
+                "img": "skills.PNG"
+            },
+            {
+                "img": "insideProject.PNG"
+            }
+        ],
         "job": "Developpeur Front-End"
     },
     {
@@ -165,5 +187,45 @@
             }
         ],
         "job": "Developpeur de Scripts"
+    },
+    {
+        "id":"5",
+        "title": "BYRA Marketplace",
+        "img": "BYRAMARKETPLACE.png",
+        "shortDesc": "Site web presentant une marketplace.",
+        "longDesc": "BYRA Marketplace est un site web réalisé en React (Functionnal) avec l'API FakeStore et SessionStorage présentant une marketplace, on peut consulter, ajouter, modifier, supprimer ou acheter les articles de son panier.",
+        "langages": [
+            {
+                "title": "React",
+                "img": "REACT.svg",
+                "background": false
+            },
+            {
+                "title": "Git",
+                "img": "GIT.svg",
+                "background": false
+            }
+        ],
+        "missions": [
+            {
+                "title":"➜ Conception graphique."
+            }
+        ],
+        "folderName": "marketplace",
+        "imageProject": [
+            {
+                "img": "mainPage.PNG"
+            },
+            {
+                "img": "article.PNG"
+            },
+            {
+                "img": "detail.PNG"
+            },
+            {
+                "img": "basket.PNG"
+            }
+        ],
+        "job": "Developpeur Front-End"
     }
 ]

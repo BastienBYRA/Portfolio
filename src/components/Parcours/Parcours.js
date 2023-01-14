@@ -63,6 +63,7 @@ class Parcours extends React.Component {
                           content={exp.content}
                           type={exp.type}
                           tasks={exp.missions}
+                          projectDetails={exp.projectDetails}
                         />
                       );
                     })}

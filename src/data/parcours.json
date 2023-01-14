@@ -8,7 +8,8 @@
                 "title":"FORMATION : Apprentissage à IUT de Bordeaux Licence Pro DAWIN, Bac +3 - 1 an",
                 "content":"Pendant cette année de licence pro, j'ai pu renforcer mes connaissances concernant le développement de solution informatique (Programmation, Bases de données, Cybersécurité, Agilité...) ainsi qu'apprendre de nouveau concept et langage",
                 "type":"school",
-                "missions": null
+                "missions": null,
+                "projectDetails": null
             },
             {
                 "img": "https://sserenity-dentaire.com/wp-content/uploads/2018/09/acteon-satelec-sopro-logiciel-dentaire.jpg",
@@ -31,7 +32,8 @@
                     {
                         "title": "➜ Optimisation le code précédent"
                     }
-                ]
+                ],
+                "projectDetails":"/project/2"
             }
         ]
     },
@@ -44,7 +46,8 @@
                 "title":"FORMATION : Apprentissage au Lycée Gustave Eiffel BTS SIO SLAM, Bac +2 - 2 ans",
                 "content":"Pendant ces deux années de BTS, j'ai pu apprendre la programmation web, objet, mobile, la cybersécurité, l'agilité, l'administration Linux, la manipulation de SGDB / Base de données et ce qui l'entoure (TLDR : CNIL, RGPD)",
                 "type":"school",
-                "missions": null
+                "missions": null,
+                "projectDetails":null
             },
             {
                 "img": "https://www.obbymedia.fr/wp-content/uploads/2022/05/Logo-ObbyMedia-RVB-fc.png",
@@ -58,7 +61,8 @@
                     {
                         "title": "➜ Optimiser le code précédent."
                     }
-                ]
+                ],
+                "projectDetails":"/project/3"
             },
             {
                 "img": "https://www.unitec.fr/wp-content/uploads/2018/07/emsproto_logo.png",
@@ -75,7 +79,8 @@
                     {
                         "title": "➜ Création d'un script d'équivalence a partir de la manipulation des données effectuées."
                     }
-                ]
+                ],
+                "projectDetails":"/project/4"
             }
         ]
     },
@@ -88,7 +93,8 @@
                 "title":"FORMATION : Lycée pro Philadelphe de Gerde, Bac +0 - 3 ans",
                 "content":"Pendant ces trois années de Bac Pro, j'ai pu apprendre le réseau, l'électronique, la maintenance des appareils informatique",
                 "type":"school",
-                "missions": null
+                "missions": null,
+                "projectDetails":null
             },
             {
                 "img": "https://assets.leparisien.fr/website/images/promo-codes/brand-logo/cybertek.png",
@@ -102,7 +108,8 @@
                     {
                         "title": "➜ Diagnostic de problème Hardware et Software."
                     }
-                ]
+                ],
+                "projectDetails":null
             }
         ]
     }

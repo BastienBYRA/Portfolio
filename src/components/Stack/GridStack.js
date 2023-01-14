@@ -21,7 +21,6 @@ class GridStack extends React.Component {
 
   componentDidMount = async () => {
     this.setState({ langagesLength: this.langages.length });
-
     this.addStyleToComponent();
   };
 

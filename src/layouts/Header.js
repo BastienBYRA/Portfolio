@@ -100,9 +100,9 @@ class Header extends React.Component {
           className="flex items-center mt-auto mb-auto"
           ref={this.burger}
         >
-          <a href="/Portfolio/">
+          <Link to="/">
             <h1>BYRA Bastien</h1>
-          </a>
+          </Link>
 
           <div className="ml-auto gap-5 flex items-center">
             {/* <a href=""><p className="underline sm:block hidden">Parcours</p></a>
@@ -162,7 +162,7 @@ class Header extends React.Component {
             ref={this.showMenuTitle}
             className="mt-auto hidden transition duration-1000 translate-x-[100vw] mb-28"
           >
-            <Link to="/Portfolio">
+            <Link to="/">
               <p className="w-fit underline block text-2xl duration-150 sm:text-4xl mb-2 hover:text-6xl hover:mb-5">
                 Page d'accueil
               </p>
