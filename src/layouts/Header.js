@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import menuIcon from "../assets/icons/menu.svg";
+import { HashLink } from "react-router-hash-link";
 
 class Header extends React.Component {
   constructor(props) {
@@ -11,36 +12,6 @@ class Header extends React.Component {
     this.isMainPage = this.props.isMainPage;
     this.state = { showMenu: false, marginTop: null };
   }
-
-  componentDidMount() {
-    // window.addEventListener("scroll", this.resizeHeaderOnScroll);
-  }
-
-  // resizeHeaderOnScroll = () => {
-  //   const distanceY = window.scrollY || document.documentElement.scrollTop,
-  //     shrinkOn = 50;
-
-  //   console.log(this.headerShrink.current.style);
-  //   if (distanceY > shrinkOn) {
-  //     this.headerShrink.current.style.height = "7vh";
-  //   } else {
-  //     this.headerShrink.current.style.height = "10vh";
-  //   }
-  // };
-
-  // resizeHeaderOnScroll = () => {
-  //   if (this.state.showMenu === false) {
-  //     console.log(this.state.showMenu);
-  //     const distanceY = window.scrollY || document.documentElement.scrollTop,
-  //       shrinkOn = 50;
-
-  //     if (distanceY > shrinkOn) {
-  //       this.headerShrink.current.style.height = "7vh";
-  //     } else {
-  //       this.headerShrink.current.style.height = "10vh";
-  //     }
-  //   }
-  // };
 
   showHideMenu = (currentState) => {
     this.setState({ showMenu: currentState });
@@ -100,7 +71,7 @@ class Header extends React.Component {
           className="flex items-center mt-auto mb-auto"
           ref={this.burger}
         >
-          <Link to="/Portfolio">
+          <Link to="/">
             <h1>BYRA Bastien</h1>
           </Link>
 
@@ -162,11 +133,26 @@ class Header extends React.Component {
             ref={this.showMenuTitle}
             className="mt-auto hidden transition duration-1000 translate-x-[100vw] mb-28 md:mx-auto md:my-auto"
           >
-            <Link to={"/Portfolio"}>
+            <HashLink onClick={() => this.hideMenu()} smooth to={"/#Parcours"}>
               <p className="w-fit underline block text-2xl duration-150 sm:text-4xl mb-2 md:mb-8 hover:text-6xl hover:mb-5 md:mx-auto">
-                Page d'accueil
+                Parcours
               </p>
-            </Link>
+            </HashLink>
+            <HashLink onClick={() => this.hideMenu()} smooth to={"/#Skills"}>
+              <p className="w-fit underline block text-2xl duration-150 sm:text-4xl mb-2 md:mb-8 hover:text-6xl hover:mb-5 md:mx-auto">
+                Skills
+              </p>
+            </HashLink>
+            <HashLink onClick={() => this.hideMenu()} smooth to={"/#Projets"}>
+              <p className="w-fit underline block text-2xl duration-150 sm:text-4xl mb-2 md:mb-8 hover:text-6xl hover:mb-5 md:mx-auto">
+                Projets
+              </p>
+            </HashLink>
+            <HashLink onClick={() => this.hideMenu()} smooth to={"/#Contact"}>
+              <p className="w-fit underline block text-2xl duration-150 sm:text-4xl mb-2 md:mb-8 hover:text-6xl hover:mb-5 md:mx-auto">
+                Contact
+              </p>
+            </HashLink>
           </div>
         )}
       </header>

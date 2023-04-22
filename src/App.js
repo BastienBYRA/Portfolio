@@ -16,7 +16,7 @@ class App extends React.Component {
     return (
       <div className="App bg-zinc-800">
         {/* <Header key={nanoid()} /> */}
-        <BrowserRouter>
+        <BrowserRouter basename="/Portfolio" hashType="noslash">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/project/:id" element={<Details />} />
