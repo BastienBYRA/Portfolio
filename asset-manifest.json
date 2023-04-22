@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.08c89c4e.css",
-    "main.js": "/Portfolio/static/js/main.19f7e026.js",
+    "main.js": "/Portfolio/static/js/main.f67c1eb2.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/BYRA.jpg": "/Portfolio/static/media/BYRA.bad3833a6dd5284f81c4.jpg",
     "static/media/stack.jpg": "/Portfolio/static/media/stack.62c5659d982276a87a76.jpg",
-    "static/media/CV_BYRA.pdf": "/Portfolio/static/media/CV_BYRA.d17ff6e4db6502ae046d.pdf",
+    "static/media/CV Bastien BYRA vD.pdf": "/Portfolio/static/media/CV Bastien BYRA vD.a9529ab503b79813f5ee.pdf",
     "static/media/github.svg": "/Portfolio/static/media/github.255db585f8a0eb28a1e4deb91bde207d.svg",
     "index.html": "/Portfolio/index.html",
     "static/media/menu.svg": "/Portfolio/static/media/menu.bc000352fd74778c5de2d365bcacbf4c.svg",
@@ -13,11 +13,11 @@
     "static/media/school.svg": "/Portfolio/static/media/school.2f6d1be5ec3a74e5207a8a9b6fc8dd00.svg",
     "static/media/email.svg": "/Portfolio/static/media/email.5a387e74dbef285fe81a3cd40ea170b5.svg",
     "main.08c89c4e.css.map": "/Portfolio/static/css/main.08c89c4e.css.map",
-    "main.19f7e026.js.map": "/Portfolio/static/js/main.19f7e026.js.map",
+    "main.f67c1eb2.js.map": "/Portfolio/static/js/main.f67c1eb2.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.08c89c4e.css",
-    "static/js/main.19f7e026.js"
+    "static/js/main.f67c1eb2.js"
   ]
 }
