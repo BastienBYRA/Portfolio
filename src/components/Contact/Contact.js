@@ -1,7 +1,7 @@
 import { nanoid } from "nanoid";
 import React from "react";
 import Button from "../../UI/Button";
-import PDF from "../../assets/document/CV Bastien BYRA vD.pdf";
+import PDF from "../../assets/document/CV BYRA Bastien.pdf";
 
 class Contact extends React.Component {
   constructor(props) {

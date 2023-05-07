@@ -75,31 +75,32 @@ class Header extends React.Component {
             <h1>BYRA Bastien</h1>
           </Link>
 
+          {/*  */}
           <div className="ml-auto gap-5 flex items-center">
-            {/* <a href=""><p className="underline sm:block hidden">Parcours</p></a>
-            <p className="underline sm:block hidden">Skills</p>
-            <p className="underline sm:block hidden">Projets</p>
-            <p className="underline sm:block hidden">Contact</p> */}
-
             <div
-              className=" block"
+              className="block"
               onClick={(e) => this.showHideMenu(!this.state.showMenu)}
             >
               <img src={menuIcon} className="invert hover:cursor-pointer" />
             </div>
+
+            {/* <div className="hidden md:flex md:gap-4 xl:gap-8 items-center">
+              <a href="#Parcours">
+                <p className="hover:underline">Parcours</p>
+              </a>
+              <a href="#Skills">
+                <p className="hover:underline">Skills</p>
+              </a>
+              <a href="#Projets">
+                <p className="hover:underline">Projets</p>
+              </a>
+              <a href="#Contact">
+                <p className="hover:underline">Contact</p>
+              </a>
+            </div> */}
           </div>
         </div>
-        {/* {this.state.showMenu && (
-          <div
-            ref={this.showMenuTitle}
-            className="mt-8 hidden transition-transform duration-300"
-          >
-            <p className="underline block text-lg ">Parcours</p>
-            <p className="underline block text-lg">Skills</p>
-            <p className="underline block text-lg">Projets</p>
-            <p className="underline block text-lg">Contact</p>
-          </div>
-        )} */}
+
         {this.isMainPage && (
           <div
             ref={this.showMenuTitle}
