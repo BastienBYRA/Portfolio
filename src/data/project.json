@@ -191,6 +191,49 @@
         "job": "Developpeur de Scripts"
     },
     {
+        "id":"6",
+        "title": "User Application (CRUD App)",
+        "img": "USERCRUD.png",
+        "shortDesc": "Application CRUD utilisant Docker.",
+        "longDesc": "User Application (CRUD App) est un site web simpliste permettant de créer, modifier, supprimer et rechercher des utilisateurs, le projet utilise Node.js avec Express, une base de données MongoDB, ainsi que Docker.",
+        "langages": [
+            {
+                "title": "Node.js",
+                "img": "NODEJS.svg",
+                "background": true
+            },
+            {
+                "title": "MongoDB",
+                "img": "MONGODB.png",
+                "background": true
+            },
+            {
+                "title": "Docker",
+                "img": "DOCKER.webp",
+                "background": false
+            },
+            {
+                "title": "Git",
+                "img": "GIT.svg",
+                "background": false
+            }
+        ],
+        "missions": [
+            {
+                "title":"➜ Création des fonctionnalités de l'application."
+            },
+            {
+                "title":"➜ Conception graphique."
+            },
+            {
+                "title":"➜ Mise en place de Docker."
+            }
+        ],
+        "job": "Developpeur Full-Stack",
+        "folderName": "usercrud",
+        "videoProject": "demo.gif"
+    },
+    {
         "id":"5",
         "title": "BYRA Marketplace",
         "img": "BYRAMARKETPLACE.png",

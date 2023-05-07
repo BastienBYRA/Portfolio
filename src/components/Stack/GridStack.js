@@ -38,14 +38,17 @@ class GridStack extends React.Component {
     } else if (this.langages.length >= 7 && this.langages.length <= 8) {
       gridColNumber = "grid-cols-3 sm:grid-cols-4";
       gridColSpan = "col-span-1 sm:col-span-2";
-    } else if (this.langages.length === 5) {
+    } else if (this.langages.length === 5 || this.langages.length === 4) {
       gridColNumber = "grid-cols-3";
       gridColSpan = "col-span-1";
     } else if (this.langages.length === 1) {
       gridColNumber = "grid-cols-1";
       gridColSpan = "col-span-1";
-    } else {
+    } else if (this.langages.length === 2) {
       gridColNumber = "grid-cols-2";
+      gridColSpan = "col-span-2";
+    } else {
+      gridColNumber = "grid-cols-3";
       gridColSpan = "col-span-1";
     }
 

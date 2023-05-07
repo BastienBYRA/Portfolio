@@ -38,12 +38,6 @@
                 "img": "TAILWIND.svg", 
                 "name": "Tailwind CSS",
                 "background": false
-            },
-            {
-                "id": "7",
-                "img": "BOOTSTRAP.svg", 
-                "name": "Bootstrap",
-                "background": false
             }
         ]
     },
@@ -71,9 +65,21 @@
                 "background": false
             },
             {
+                "id": "5",
+                "img": "NODEJS.svg",
+                "name": "Node.js",
+                "background": false
+            },
+            {
                 "id": "4",
                 "img": "PHP.svg",
                 "name": "PHP",
+                "background": false
+            },
+            {
+                "id": "6",
+                "img": "SYMFONY.png",
+                "name": "Symfony",
                 "background": false
             }
         ]
@@ -119,6 +125,12 @@
                 "img": "FLUTTER.svg",
                 "name": "Flutter",
                 "background": false
+            },
+            {
+                "id": "3",
+                "img": "REACT.svg",
+                "name": "React Native",
+                "background": false
             }
         ]
     },
@@ -131,6 +143,12 @@
                 "id": "1",
                 "img": "PYTHON.png",
                 "name": "Python",
+                "background": false
+            },
+            {
+                "id": "3",
+                "img": "JS.svg",
+                "name": "JavaScript",
                 "background": false
             }
         ]

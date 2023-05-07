@@ -51,6 +51,20 @@ class Description extends React.Component {
               {this.state.currentProject.longDesc}
             </h2>
 
+            {this.state.currentProject.videoProject && (
+              <div className="mt-12">
+                <img
+                  src={
+                    process.env.PUBLIC_URL +
+                    "/project-inside/" +
+                    this.state.currentProject.folderName +
+                    "/" +
+                    this.state.currentProject.videoProject
+                  }
+                ></img>
+              </div>
+            )}
+
             {this.state.currentProject.imageProject && (
               <div className="mt-12 grid grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-4">
                 {this.state.currentProject.imageProject.map((image, i) => {
@@ -73,52 +87,6 @@ class Description extends React.Component {
                 })}
               </div>
             )}
-
-            {/* <div className="flex flex-row justify-center flex-wrap mt-16 relative">
-              <div>
-                <div
-                  className="bg-white rounded-full h-24 w-24 absolute top-1/2 left-[92%]"
-                  ref={this.leftClickBtn}
-                >
-                  <p className="text-black text-7xl text-center">→</p>
-                </div>
-                <div
-                  className="bg-white rounded-full h-24 w-24 absolute top-1/2 right-[92%]"
-                  ref={this.rightClickBtn}
-                >
-                  <p className="text-black text-7xl text-center">←</p>
-                </div>
-              </div>
-
-              <img
-                src={
-                  process.env.PUBLIC_URL +
-                  "/project-inside/marketplace/mainPage.PNG"
-                }
-                className="w-[calc(90%/1)]"
-              />
-              <img
-                src={
-                  process.env.PUBLIC_URL +
-                  "/project-inside/marketplace/article.PNG"
-                }
-                className="w-[calc(90%/1)] hidden"
-              />
-              <img
-                src={
-                  process.env.PUBLIC_URL +
-                  "/project-inside/marketplace/detail.PNG"
-                }
-                className="w-[calc(90%/1)] hidden"
-              />
-              <img
-                src={
-                  process.env.PUBLIC_URL +
-                  "/project-inside/marketplace/basket.PNG"
-                }
-                className="w-[calc(90%/1)] hidden"
-              />
-            </div> */}
 
             <p className="text-2xl mt-12">
               <span className="underline">Ma position</span> :{" "}
