@@ -164,12 +164,6 @@
                 "background": false
             },
             {
-                "id": "2",
-                "img": "GITHUB.svg",
-                "name": "Github",
-                "background": false
-            },
-            {
                 "id": "3",
                 "img": "LINUX.svg",
                 "name": "Linux",
@@ -182,9 +176,27 @@
                 "background": false
             },
             {
-                "id": "5",
-                "img": "POSTMAN.svg",
-                "name": "Postman",
+                "id": "7",
+                "img": "TERRAFORM.svg",
+                "name": "Terraform",
+                "background": false
+            },
+            {
+                "id": "8",
+                "img": "KUBERNETES.svg",
+                "name": "Kubernetes",
+                "background": false
+            },
+            {
+                "id": "8",
+                "img": "AZURE.svg",
+                "name": "Azure",
+                "background": false
+            },
+            {
+                "id": "2",
+                "img": "GITHUB.svg",
+                "name": "Github",
                 "background": false
             },
             {

@@ -47,7 +47,7 @@ class Description extends React.Component {
             <h1 className="text-4xl font-bold underline">
               {this.state.currentProject.title}
             </h1>
-            <h2 className="text-base sm:text-xl mt-10">
+            <h2 className="text-base sm:text-xl mt-10 whitespace-pre-line">
               {this.state.currentProject.longDesc}
             </h2>
 

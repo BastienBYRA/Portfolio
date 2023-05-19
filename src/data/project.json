@@ -74,9 +74,9 @@
     {
         "id":"1",
         "title": "Mon site portfolio",
-        "img": "PORTFOLIO2.png",
+        "img": "PORTFOLIO3.png",
         "shortDesc": "Un site réalisé par mes soins afin de me présenter.",
-        "longDesc": "Mon site portfolio réalisé avec React (Component / Class) et le framework CSS \"Tailwind CSS\" est un site web ayant pour but de me présenter.",
+        "longDesc": "Mon site portfolio réalisé avec React (Component / Class) et le framework CSS \"Tailwind CSS\" est un site web ayant pour but de me présenter, moi, mes projets et mes compétences. \r\n\nCe projet a été conteneurisé avec Docker, et deployé sur Microsoft Azure avec Terraform.\r\n👉 Lien du portfolio sur Azure : https://byra-portfolio-example.azurewebsites.net/Portfolio",
         "langages": [
             {
                 "title": "React",
@@ -92,11 +92,32 @@
                 "title": "Git",
                 "img": "GIT.svg",
                 "background": false
+            },
+            {
+                "title": "Docker",
+                "img": "DOCKER.webp",
+                "background": false
+            },
+            {
+                "title": "Terraform",
+                "img": "TERRAFORM.svg",
+                "background": false
+            },
+            {
+                "title": "Microsoft Azure",
+                "img": "AZURE.svg",
+                "background": false
             }
         ],
         "missions": [
             {
                 "title":"➜ Conception graphique."
+            },
+            {
+                "title":"➜ Mise en place de Docker."
+            },
+            {
+                "title":"➜ Mise en place de l'infrastructure de l'application."
             }
         ],
         "folderName": "portfolio",
@@ -117,7 +138,7 @@
                 "img": "insideProject.PNG"
             }
         ],
-        "job": "Developpeur Front-End",
+        "job": "Developpeur Front-End, Ingénieur DevOps",
         "url": "https://bastienbyra.github.io/Portfolio/"
     },
     {
