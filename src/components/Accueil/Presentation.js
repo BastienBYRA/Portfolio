@@ -1,6 +1,7 @@
 import React from "react";
 import github from "../../assets/icons/github.svg";
 import email from "../../assets/icons/email.svg";
+import linkedin from "../../assets/icons/linkedin.svg";
 import Button from "../../UI/Button";
 import { nanoid } from "nanoid";
 
@@ -25,10 +26,28 @@ class Presentation extends React.Component {
             <p className=" text-xl font-bold sm:text-2xl"> 👋 Bonjour ! </p>
             <div className="flex items-center gap-4 justify-end ml-auto">
               <a href="https://github.com/BastienBYRA" target="_blank">
-                <img className="w-8 h-8" src={github} alt="Github" />
+                <img
+                  className="w-6 h-6 sm:w-8 sm:h-8"
+                  src={github}
+                  alt="Github"
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/bastien-byra-848998209/"
+                target="_blank"
+              >
+                <img
+                  className="w-6 h-6 sm:w-8 sm:h-8 rounded-md"
+                  src={linkedin}
+                  alt="Linkedin"
+                />
               </a>
               <a href="mailto:byra.bastien@gmail.com">
-                <img className="w-8 h-8" src={email} alt="Mon email" />
+                <img
+                  className="w-6 h-6 sm:w-8 sm:h-8"
+                  src={email}
+                  alt="Mon email"
+                />
               </a>
             </div>
           </div>
