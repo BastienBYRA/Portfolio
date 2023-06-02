@@ -290,29 +290,7 @@
             }
         ],
         "folderName": "kawaii",
-        "imageProject": [
-            {
-                "img": "ERGO.JPG"
-            },
-            {
-                "img": "ERGO5.JPG"
-            },
-            {
-                "img": "ERGO2.JPG"
-            },
-            {
-                "img": "ERGO3.JPG"
-            },
-            {
-                "img": "ERGO4.JPG"
-            },
-            {
-                "img": "ERGO6.JPG"
-            },
-            {
-                "img": "ERGO7.JPG"
-            }
-        ],
+        "videoProject": "kawaii.gif",
         "job": "Webdesigner",
         "url": "https://drive.google.com/drive/folders/1Ro-KKYHZNp42-WlY44Y1-uQ3cLBU0IAG?usp=sharing"
     },
