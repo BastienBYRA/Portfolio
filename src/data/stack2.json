@@ -147,8 +147,8 @@
             },
             {
                 "id": "3",
-                "img": "JS.svg",
-                "name": "JavaScript",
+                "img": "BASH.svg",
+                "name": "Bash",
                 "background": false
             }
         ]
@@ -203,6 +203,12 @@
                 "id": "6",
                 "img": "SELENIUM.png",
                 "name": "Selenium",
+                "background": false
+            },
+                        {
+                "id": "9",
+                "img": "ADOBEXD.svg",
+                "name": "Adobe XD",
                 "background": false
             }
         ]

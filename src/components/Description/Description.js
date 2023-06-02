@@ -111,7 +111,7 @@ class Description extends React.Component {
             {this.state.currentProject.langages && (
               <div className="mt-8 mb-8">
                 <p className="text-2xl mt-8">
-                  <span className="underline">Les technos</span> :
+                  <span className="underline">Les skills</span> :
                 </p>
                 <div className="backdrop-blur-md bg-black/20 hover:bg-black/40 duration-200 rounded-xl flex px-8 mt-4 py-6 gap-x-16 gap-y-8 flex-wrap shadow-md hover:shadow-lg">
                   {this.state.currentProject.langages.map((langage, i) => {

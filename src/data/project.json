@@ -142,6 +142,37 @@
         "url": "https://bastienbyra.github.io/Portfolio/"
     },
     {
+        "id":"4",
+        "title": "EMS Proto - Web Scrapping",
+        "img": "EMSPROTO.png",
+        "shortDesc": "Script de collecte de données des sites Mouser et Digikey.",
+        "longDesc": "Un ensemble de script réalisé en Python avec la librairie Selenium permettant de récupérer des données en ligne sur les sites de Mouser et Digikey, afin de pouvoir rechercher et faire des comparaisons entre les différentes données collecté.",
+        "langages": [
+            {
+                "title": "Python",
+                "img": "PYTHON.png",
+                "background": false
+            },
+            {
+                "title": "Selenium",
+                "img": "SELENIUM.png",
+                "background": false
+            }
+        ],
+        "missions": [
+            {
+                "title": "➜ Création de scripts de récupération de données."
+            },
+            {
+                "title": "➜ Création d'un script de manipulation de données."
+            },
+            {
+                "title": "➜ Création d'un script d'équivalence a partir de la manipulation des données effectuées."
+            }
+        ],
+        "job": "Developpeur de Scripts"
+    },
+    {
         "id":"3",
         "title": "Obbymedia - U me Jobs",
         "img": "OBBYMEDIA2.png",
@@ -179,37 +210,6 @@
         ],
         "job": "Developpeur Mobile",
         "url": "https://ume.jobs/"
-    },
-    {
-        "id":"4",
-        "title": "EMS Proto - Web Scrapping",
-        "img": "EMSPROTO.png",
-        "shortDesc": "Script de collecte de données des sites Mouser et Digikey.",
-        "longDesc": "Un ensemble de script réalisé en Python avec la librairie Selenium permettant de récupérer des données en ligne sur les sites de Mouser et Digikey, afin de pouvoir rechercher et faire des comparaisons entre les différentes données collecté.",
-        "langages": [
-            {
-                "title": "Python",
-                "img": "PYTHON.png",
-                "background": false
-            },
-            {
-                "title": "Selenium",
-                "img": "SELENIUM.png",
-                "background": false
-            }
-        ],
-        "missions": [
-            {
-                "title": "➜ Création de scripts de récupération de données."
-            },
-            {
-                "title": "➜ Création d'un script de manipulation de données."
-            },
-            {
-                "title": "➜ Création d'un script d'équivalence a partir de la manipulation des données effectuées."
-            }
-        ],
-        "job": "Developpeur de Scripts"
     },
     {
         "id":"6",
@@ -253,6 +253,68 @@
         "job": "Developpeur Full-Stack",
         "folderName": "usercrud",
         "videoProject": "demo.gif"
+    },
+    {
+        "id":"5",
+        "title": "KAWAII - Conception de Webdesign",
+        "img": "KAWAII.png",
+        "shortDesc": "Conception du site du Foodtruck fictif \"KAWAII\".",
+        "longDesc": "Ce projet porte sur la conception de l'image de marque de KAWAII, par la création d'un brief client, de la réalisation d'un benchmark, d'une charte graphique, d'un logo, de wireframe et finalement d'une maquette du site web.",
+        "langages": [
+            {
+                "title": "Adobe AI",
+                "img": "ADOBEAI.svg",
+                "background": false
+            },
+            {
+                "title": "Adobe XD",
+                "img": "ADOBEXD.svg",
+                "background": false
+            }
+        ],
+        "missions": [
+            {
+                "title":"➜ Analyse de la marque."
+            },
+            {
+                "title":"➜ Création d'une charte graphique."
+            },
+            {
+                "title":"➜ Création d'un logo."
+            },
+            {
+                "title":"➜ Conception de wireframe."
+            },
+            {
+                "title":"➜ Conception d'une maquette."
+            }
+        ],
+        "folderName": "kawaii",
+        "imageProject": [
+            {
+                "img": "ERGO.JPG"
+            },
+            {
+                "img": "ERGO5.JPG"
+            },
+            {
+                "img": "ERGO2.JPG"
+            },
+            {
+                "img": "ERGO3.JPG"
+            },
+            {
+                "img": "ERGO4.JPG"
+            },
+            {
+                "img": "ERGO6.JPG"
+            },
+            {
+                "img": "ERGO7.JPG"
+            }
+        ],
+        "job": "Webdesigner",
+        "url": "https://drive.google.com/drive/folders/1Ro-KKYHZNp42-WlY44Y1-uQ3cLBU0IAG?usp=sharing"
     },
     {
         "id":"5",

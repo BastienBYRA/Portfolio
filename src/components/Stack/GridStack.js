@@ -47,6 +47,9 @@ class GridStack extends React.Component {
     } else if (this.langages.length === 2) {
       gridColNumber = "grid-cols-2";
       gridColSpan = "col-span-2";
+    } else if (this.langages.length === 9) {
+      gridColNumber = "grid-cols-3 sm:grid-cols-5";
+      gridColSpan = "col-span-2 sm:col-span-2";
     } else {
       gridColNumber = "grid-cols-3";
       gridColSpan = "col-span-2 sm:col-span-1";
