@@ -6,15 +6,49 @@
             {
                 "img":"https://www.iut.u-bordeaux.fr/general/wp-content/uploads/2017/03/iut_Bordeaux_RVB-01-e1488459784711.jpg",
                 "title":"FORMATION : Apprentissage à IUT de Bordeaux Licence Pro DAWIN, Bac +3 - 1 an",
-                "content":"Pendant cette année de licence pro, j'ai pu renforcer mes connaissances concernant le développement de solution informatique (Programmation, Bases de données, Cybersécurité, Agilité...) ainsi qu'apprendre de nouveau concept et langage",
+                "content":"Pendant cette année de licence pro, j'ai pu renforcer mes connaissances concernant le développement de solution informatique (Programmation, Bases de données, Cybersécurité, Agilité...) ainsi qu'apprendre de nouveau concept et langage.",
                 "type":"school",
-                "missions": null,
+                "missions": [
+                    {
+                        "title": "➜ Programmation Objet."
+                    },
+                    {
+                        "title": "➜ Programmation Web (JavaScript, React, VueJS)."
+                    },
+                    {
+                        "title": "➜ Programmation Back-end (.NET, NodeJS, Symfony, Spring Boot, Ruby On Rails)."
+                    },
+                    {
+                        "title": "➜ Bases de données SQL et NoSQL (MySQL, MariaDB, MongoDB)."
+                    },
+                    {
+                        "title": "➜ Programmation mobile (React Native)."
+                    },
+                    {
+                        "title": "➜ Gestion de projet : Méthodes agiles (Scrum, Kanban)."
+                    },
+                    {
+                        "title": "➜ Cybersécurité."
+                    },
+                    {
+                        "title": "➜ DevOps : Docker, Docker compose, Pipeline CI/CD."
+                    },
+                    {
+                        "title": "➜ Webdesign - Ergonomie (avec Suite Adobe)."
+                    },
+                    {
+                        "title": "➜ Modelisation 3D (OpenInventor)."
+                    },
+                    {
+                        "title": "➜ Versionning et travaille collaboratif : Git."
+                    }
+                ],
                 "projectDetails": null
             },
             {
                 "img": "https://sserenity-dentaire.com/wp-content/uploads/2018/09/acteon-satelec-sopro-logiciel-dentaire.jpg",
                 "title": "EXPERIENCE : Alternance chez Acteon Satelec - 1 an",
-                "content": "J'ai travailler sur la webapp DigitActeon, une webapp interne de la boite permettant d'améliorer la productivité des employés ainsi que garder des traces numérique des traitements réalisés par les employés J'ai pendant cette alternance ;",
+                "content": "Pendant cette année d'alternance, j'ai travaillé sur le site web interne DigitActeon, un site web ayant pour but d'assurer la centralisation et digitalisation des données, assurer l'intégrité des données entres les différents ateliers interne, assurer le respect des normes qualité et réglementation en vigueur.",
                 "type":"work",
                 "missions": [
                     {
@@ -46,13 +80,53 @@
                 "title":"FORMATION : Apprentissage au Lycée Gustave Eiffel BTS SIO SLAM, Bac +2 - 2 ans",
                 "content":"Pendant ces deux années de BTS, j'ai pu apprendre la programmation web, objet, mobile, la cybersécurité, l'agilité, l'administration Linux, la manipulation de SGDB / Base de données et ce qui l'entoure (TLDR : CNIL, RGPD)",
                 "type":"school",
-                "missions": null,
+                "missions": [
+                    {
+                        "title": "➜ Programmation Objet."
+                    },
+                    {
+                        "title": "➜ Programmation Web (HTML, CSS)."
+                    },
+                    {
+                        "title": "➜ Programmation Back-end (PHP, C#, Java)."
+                    },
+                    {
+                        "title": "➜ Bases de données SQL (MySQL)."
+                    },
+                    {
+                        "title": "➜ Programmation Android (Java)."
+                    },
+                    {
+                        "title": "➜ Scripting (Python, Bash)."
+                    },
+                    {
+                        "title": "➜ Cybersécurité."
+                    },
+                    {
+                        "title": "➜ Administration Système : Linux."
+                    },
+                    {
+                        "title": "➜ Virtualisation : VirtualBox."
+                    },
+                    {
+                        "title": "➜ Gestion de projet : Méthodes agiles (Scrum, Kanban)."
+                    },
+                    {
+                        "title": "➜ Versionning et travaille collaboratif : Git."
+                    },
+                    {
+                        "title": "➜ Testing (Unitaire)."
+                    },
+                    {
+                        "title": "➜ Reglementation sur le traitement des données (CNIL, RGPD)."
+                    }
+                ],
                 "projectDetails":null
             },
             {
                 "img": "https://www.obbymedia.fr/wp-content/uploads/2022/05/Logo-ObbyMedia-RVB-fc.png",
                 "title": "EXPERIENCE : Stage chez Obbymedia - 8 semaines (2ème année de BTS)",
-                "content": "J'ai travaillé sur une refonte complète de leur application pré-existante 'U me Jobs', mon objectif était de refaire l'application déja existante en Angular / Ionic en Flutter.",
+                "content": "Pendant mon stage, j'ai effectué la refonte technique complète de l'application pré-existante 'U me Jobs', mon objectif était de refaire l'application déja existante Angular / Ionic en Flutter.",
                 "type":"work",
                 "missions": [
                     {
@@ -60,6 +134,9 @@
                     },
                     {
                         "title": "➜ Optimiser le code précédent."
+                    },
+                    {
+                        "title": "➜ Création d'un plugin Wordpress."
                     }
                 ],
                 "projectDetails":"/project/3"
@@ -67,7 +144,7 @@
             {
                 "img": "https://www.unitec.fr/wp-content/uploads/2018/07/emsproto_logo.png",
                 "title": "EXPERIENCE : Stage chez EMS Proto - 6 semaines (1ère année de BTS)",
-                "content": "J'ai travaillé sur des scripts de scrapping afin de récupérer des données sur les sites de Digikey et Mouser, ainsi que des scripts de manipulation des données et d'équivalence.",
+                "content": "Pendant mon stage, j'ai réalisé des scripts de Webscrapping afin de récupérer des données sur les sites de Digikey et Mouser, ainsi qu'un script de manipulation des données et d'équivalence.",
                 "type":"work",
                 "missions": [
                     {
@@ -81,35 +158,6 @@
                     }
                 ],
                 "projectDetails":"/project/4"
-            }
-        ]
-    },
-    {
-        "id": "2",
-        "year": "2017 - 2020",
-        "experience": [
-            {
-                "img":"https://lyceepro-pessac.fr/wp-content/uploads/2022/05/logo-philadelphe-de-gerde.jpg",
-                "title":"FORMATION : Lycée pro Philadelphe de Gerde, Bac +0 - 3 ans",
-                "content":"Pendant ces trois années de Bac Pro, j'ai pu apprendre le réseau, l'électronique, la maintenance des appareils informatique",
-                "type":"school",
-                "missions": null,
-                "projectDetails":null
-            },
-            {
-                "img": "https://assets.leparisien.fr/website/images/promo-codes/brand-logo/cybertek.png",
-                "title": "EXPERIENCE : Stage chez Cybertek, Tekmedia, EXT et JMCL - 21 semaines (Pendant les 3 ans)",
-                "content": "J'ai surtout pendant mes stages de BTS réalisé de la maintenance Software et Hardware d'ordinateur.",
-                "type":"work",
-                "missions": [
-                    {
-                        "title": "➜ Montage / Demontage de Tour / PC portable."
-                    },
-                    {
-                        "title": "➜ Diagnostic de problème Hardware et Software."
-                    }
-                ],
-                "projectDetails":null
             }
         ]
     }

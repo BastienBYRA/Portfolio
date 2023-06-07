@@ -12,7 +12,11 @@ class Task extends React.Component {
       <div>
         <ul className="mt-3">
           {this.tasks.map((task) => {
-            return <li key={nanoid()}>{task.title}</li>;
+            return (
+              <li className="mb-1" key={nanoid()}>
+                {task.title}
+              </li>
+            );
           })}
         </ul>
       </div>

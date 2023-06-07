@@ -3,7 +3,10 @@ import Task from "./Task";
 import { nanoid } from "nanoid";
 import school from "../../assets/icons/school.svg";
 import work from "../../assets/icons/work.svg";
+import arrow_down from "../../assets/icons/arrow-down-double.svg";
+import arrow_up from "../../assets/icons/arrow-up-double.svg";
 import { Link } from "react-router-dom";
+import { IonIcon } from "@ionic/react";
 
 class Workflow extends React.Component {
   constructor(props) {
@@ -15,6 +18,9 @@ class Workflow extends React.Component {
     this.type = this.props.type;
     this.projectDetails = this.props.projectDetails;
     this.mainDiv = React.createRef();
+    this.state = {
+      showHideDetails: false,
+    };
   }
 
   componentDidMount = () => {
@@ -30,6 +36,10 @@ class Workflow extends React.Component {
       }
     });
     observer.observe(this.mainDiv.current);
+  };
+
+  showHideDetails = () => {
+    this.setState({ showHideDetails: !this.state.showHideDetails });
   };
 
   render() {
@@ -57,14 +67,32 @@ class Workflow extends React.Component {
 
           <p className="underline text-lg mt-1">{this.title}</p>
           <p className="text-md mt-2">{this.content}</p>
-          {this.tasks && <Task tasks={this.tasks} />}
 
-          {this.projectDetails && (
-            <Link to={this.projectDetails}>
-              <p className="inline-block mt-4 font-bold px-6 py-2 rounded-sm bg-black/30 hover:bg-black/50 duration-300 border-transparent border-2">
-                Consulter
-              </p>
-            </Link>
+          <div className="inline-grid md:flex md:flex-row md:mx-auto md:items-center md:justify-between">
+            <button onClick={() => this.showHideDetails()}>
+              <div className="mt-4 font-bold hover:cursor-pointer w-auto py-1 flex gap-6 bg-black/30 hover:bg-black/50 duration-300 border-transparent border-2 items-center pl-4 pr-6">
+                {this.state.showHideDetails == false && (
+                  <img className="h-8 w-8 invert" src={arrow_down} />
+                )}
+
+                {this.state.showHideDetails == true && (
+                  <img className="h-8 w-8 invert" src={arrow_up} />
+                )}
+                <p>Plus de détails</p>
+              </div>
+            </button>
+
+            {this.projectDetails && (
+              <Link className="w-min" to={this.projectDetails}>
+                <p className="inline-block mt-4 font-bold px-6 py-2 rounded-sm bg-black/30 hover:bg-black/50 duration-300 border-transparent border-2">
+                  Consulter
+                </p>
+              </Link>
+            )}
+          </div>
+
+          {this.state.showHideDetails == true && (
+            <div>{this.tasks && <Task tasks={this.tasks} />}</div>
           )}
         </div>
       </div>
